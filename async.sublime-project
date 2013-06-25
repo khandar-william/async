@@ -6,6 +6,12 @@
 		},
 		{
 			"path": "nodejs"
+		},
+		{
+			"path": "React"
+		},
+		{
+			"path": "Phastlight"
 		}
 	]
 }
