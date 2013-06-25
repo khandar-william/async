@@ -2,19 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "Ratchet"
-		},
-		{
-			"path": "nodejs"
-		},
-		{
-			"path": "React"
-		},
-		{
-			"path": "Phastlight"
-		},
-		{
-			"path": "PHP-WebSocket"
+			"path": "/var/www/async"
 		}
 	]
 }
