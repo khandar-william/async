@@ -1,0 +1,1652 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSIGNED	client/lib/coffeescript/classes/lexer.php	/^  static $ASSIGNED          = '\/^\\s*@?([$A-Za-z_][$\\w\\x7f-\\x{ffff}]*|[\\'"].*[\\'"])[^\\n\\S]*?[:=][^:=>]\/u';$/;"	v
+Application	server/lib/WebSocket/Application/Application.php	/^abstract class Application$/;"	c
+BALANCED_PAIRS	client/lib/coffeescript/classes/rewriter.php	/^  static $BALANCED_PAIRS = array($/;"	v
+BOOL	client/lib/coffeescript/classes/lexer.php	/^  static $BOOL              = array('TRUE', 'FALSE', 'NULL', 'UNDEFINED');$/;"	v
+CALLABLE	client/lib/coffeescript/classes/lexer.php	/^  static $CALLABLE          = array('IDENTIFIER', 'STRING', 'REGEX', ')', ']', '}', '?', '::', '@', 'THIS', 'SUPER');$/;"	v
+CODE	client/lib/coffeescript/classes/lexer.php	/^  static $CODE              = '\/^[-=]>\/';$/;"	v
+COFFEE_ALIASES	client/lib/coffeescript/classes/lexer.php	/^  static $COFFEE_ALIASES = array($/;"	v
+COFFEE_KEYWORDS	client/lib/coffeescript/classes/lexer.php	/^  static $COFFEE_KEYWORDS = array($/;"	v
+COFFEE_RESERVED	client/lib/coffeescript/classes/lexer.php	/^  static $COFFEE_RESERVED = array();$/;"	v
+COMMENT	client/lib/coffeescript/classes/lexer.php	/^  static $COMMENT           = '\/^###([^#][\\s\\S]*?)(?:###[^\\n\\S]*|(?:###)?$)|^(?:\\s*#(?!##[^#]).*)+\/';$/;"	v
+COMPARE	client/lib/coffeescript/classes/lexer.php	/^  static $COMPARE           = array('==', '!=', '<', '>', '<=', '>=');$/;"	v
+COMPOUND_ASSIGN	client/lib/coffeescript/classes/lexer.php	/^  static $COMPOUND_ASSIGN   = array('-=', '+=', '\/=', '*=', '%=', '||=', '&&=', '?=', '<<=', '>>=', '>>>=', '&=', '^=', '|=' );$/;"	v
+CONVERSIONS	client/lib/coffeescript/classes/nodes/op.php	/^  static $CONVERSIONS = array($/;"	v
+Connection	server/lib/WebSocket/Connection.php	/^class Connection$/;"	c
+Date	client/js/json2.js	/^        Date.prototype.toJSON = function (key) {$/;"	c
+Date.toJSON	client/js/json2.js	/^        Date.prototype.toJSON = function (key) {$/;"	m
+DemoApplication	server/lib/WebSocket/Application/DemoApplication.php	/^class DemoApplication extends Application$/;"	c
+EXPRESSION_CLOSE	client/lib/coffeescript/classes/rewriter.php	/^  static $EXPRESSION_CLOSE = array('CATCH', 'WHEN', 'ELSE', 'FINALLY');$/;"	v
+EXPRESSION_END	client/lib/coffeescript/classes/rewriter.php	/^  static $EXPRESSION_END = array();$/;"	v
+EXPRESSION_START	client/lib/coffeescript/classes/rewriter.php	/^  static $EXPRESSION_START = array();$/;"	v
+Error	client/lib/coffeescript/classes/errors.php	/^class Error extends \\Exception$/;"	c
+FILE	client/lib/coffeescript/classes/parser.php	/^  static $FILE = 'unknown';$/;"	v
+HEREDOC	client/lib/coffeescript/classes/lexer.php	/^  static $HEREDOC           = '\/^("""|\\'\\'\\')([\\s\\S]*?)(?:\\n[^\\n\\S]*)?\\1\/';$/;"	v
+HEREDOC_ILLEGAL	client/lib/coffeescript/classes/lexer.php	/^  static $HEREDOC_ILLEGAL   = '%\\*\/%';$/;"	v
+HEREDOC_INDENT	client/lib/coffeescript/classes/lexer.php	/^  static $HEREDOC_INDENT    = '\/\\n+([^\\n\\S]*)\/';$/;"	v
+HEREGEX	client/lib/coffeescript/classes/lexer.php	/^  static $HEREGEX           = '%^\/{3}([\\s\\S]+?)\/{3}([imgy]{0,4})(?!\\w)%';$/;"	v
+HEREGEX_OMIT	client/lib/coffeescript/classes/lexer.php	/^  static $HEREGEX_OMIT      = '\/\\s+(?:#.*)?\/';$/;"	v
+IDENTIFIER	client/lib/coffeescript/classes/lexer.php	/^  static $IDENTIFIER        = '\/^([$A-Za-z_\\x7f-\\x{ffff}][$\\w\\x7f-\\x{ffff}]*)([^\\n\\S]*:(?!:))?\/u';$/;"	v
+IDENTIFIER	client/lib/coffeescript/classes/nodes.php	/^define('IDENTIFIER',  '\/^[$A-Za-z_\\x7f-\\x{ffff}][$\\w\\x7f-\\x{ffff}]*$\/u');$/;"	d
+IMPLICIT_BLOCK	client/lib/coffeescript/classes/rewriter.php	/^  static $IMPLICIT_BLOCK = array('->', '=>', '{', '[', ',');$/;"	v
+IMPLICIT_CALL	client/lib/coffeescript/classes/rewriter.php	/^  static $IMPLICIT_CALL = array($/;"	v
+IMPLICIT_END	client/lib/coffeescript/classes/rewriter.php	/^  static $IMPLICIT_END = array('POST_IF', 'FOR', 'WHILE', 'UNTIL', 'WHEN', 'BY', 'LOOP', 'TERMINATOR', 'INDENT');$/;"	v
+IMPLICIT_FUNC	client/lib/coffeescript/classes/rewriter.php	/^  static $IMPLICIT_FUNC = array('IDENTIFIER', 'SUPER', ')', 'CALL_END', ']', 'INDEX_END', '@', 'THIS');$/;"	v
+IMPLICIT_UNSPACED_CALL	client/lib/coffeescript/classes/rewriter.php	/^  static $IMPLICIT_UNSPACED_CALL = array('+', '-');$/;"	v
+INDEXABLE	client/lib/coffeescript/classes/lexer.php	/^  static $INDEXABLE         = array('NUMBER', 'BOOL');$/;"	v
+INVERSES	client/lib/coffeescript/classes/rewriter.php	/^  static $INVERSES = array();$/;"	v
+INVERSIONS	client/lib/coffeescript/classes/nodes/op.php	/^  static $INVERSIONS = array($/;"	v
+IS_STRING	client/lib/coffeescript/classes/nodes.php	/^define('IS_STRING',   '\/^[\\'"]\/');$/;"	d
+J	client/js/jquery.min.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+JSON.parse.walk	client/js/json2.js	/^            function walk(holder, key) {$/;"	f
+JSON.stringify	client/js/json2.js	/^        JSON.stringify = function (value, replacer, space) {$/;"	f
+JSTOKEN	client/lib/coffeescript/classes/lexer.php	/^  static $JSTOKEN           = '\/^`[^\\\\\\\\`]*(?:\\\\\\\\.[^\\\\\\\\`]*)*`\/';$/;"	v
+JS_FORBIDDEN	client/lib/coffeescript/classes/lexer.php	/^  static $JS_FORBIDDEN = array();$/;"	v
+JS_KEYWORDS	client/lib/coffeescript/classes/lexer.php	/^  static $JS_KEYWORDS = array($/;"	v
+JS_RESERVED	client/lib/coffeescript/classes/lexer.php	/^  static $JS_RESERVED = array($/;"	v
+JsToCoffee	client/lib/coffeescript/class.jstocoffee.php	/^class JsToCoffee$/;"	c
+JsToCoffee	client/lib/coffeescript/jsmaker.php	/^	$JsToCoffee = new JsToCoffee;$/;"	v
+LEVEL_ACCESS	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_ACCESS',  6);$/;"	d
+LEVEL_COND	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_COND',    4);$/;"	d
+LEVEL_LIST	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_LIST',    3);$/;"	d
+LEVEL_OP	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_OP',      5);$/;"	d
+LEVEL_PAREN	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_PAREN',   2);$/;"	d
+LEVEL_TOP	client/lib/coffeescript/classes/nodes.php	/^define('LEVEL_TOP',     1);$/;"	d
+LINE	client/lib/coffeescript/classes/parser.php	/^  static $LINE = 0;$/;"	v
+LINEBREAKS	client/lib/coffeescript/classes/rewriter.php	/^  static $LINEBREAKS = array('TERMINATOR', 'INDENT', 'OUTDENT');$/;"	v
+LINE_BREAK	client/lib/coffeescript/classes/lexer.php	/^  static $LINE_BREAK        = array('INDENT', 'OUTDENT', 'TERMINATOR');$/;"	v
+LINE_CONTINUER	client/lib/coffeescript/classes/lexer.php	/^  static $LINE_CONTINUER    = '\/^\\s*(?:,|\\??\\.(?![.\\d])|::)\/';$/;"	v
+LOGIC	client/lib/coffeescript/classes/lexer.php	/^  static $LOGIC             = array('&&', '||', '&', '|', '^');$/;"	v
+Lexer	client/lib/coffeescript/classes/lexer.php	/^class Lexer$/;"	c
+MATH	client/lib/coffeescript/classes/lexer.php	/^  static $MATH              = array('*', '\/', '%');$/;"	v
+MULTILINER	client/lib/coffeescript/classes/lexer.php	/^  static $MULTILINER        = '\/\\n\/';$/;"	v
+MULTI_DENT	client/lib/coffeescript/classes/lexer.php	/^  static $MULTI_DENT        = '\/^(?:\\n[^\\n\\S]*)+\/';$/;"	v
+NOT_REGEX	client/lib/coffeescript/classes/lexer.php	/^  static $NOT_REGEX         = array('NUMBER', 'REGEX', 'BOOL', '++', '--', ']');$/;"	v
+NOT_SPACED_REGEX	client/lib/coffeescript/classes/lexer.php	/^  static $NOT_SPACED_REGEX  = array(')', '}', 'THIS', 'IDENTIFIER', 'STRING');$/;"	v
+NO_NEWLINE	client/lib/coffeescript/classes/lexer.php	/^  static $NO_NEWLINE        = '#^(?:[-+*&|\/%=<>!.\\\\\\\\][<>=&|]*|and|or|is(?:nt)?|n(?:ot|ew)|delete|typeof|instanceof)$#';$/;"	v
+NULL	client/lib/coffeescript/classes/helpers.php	/^    $NULL = NULL; $/;"	v
+NULL	client/lib/coffeescript/classes/helpers.php	/^  static $NULL;$/;"	v
+NUMBER	client/lib/coffeescript/classes/lexer.php	/^  static $NUMBER            = '\/^0x[\\da-f]+|^(?:\\d+(\\.\\d+)?|\\.\\d+)(?:e[+-]?\\d+)?\/i';$/;"	v
+OPERATOR	client/lib/coffeescript/classes/lexer.php	/^  static $OPERATOR          = '#^(?:[-=]>|[-+*\/%<>&|^!?=]=|>>>=?|([-+:])\\1|([&|<>])\\2=?|\\?\\.|\\.{2,3})#';$/;"	v
+Parser	client/lib/coffeescript/classes/parser.php	/^ class Parser #line 104 "\/var\/www\/coffeescript-php\/grammar.php"$/;"	c
+PrintTrace	client/lib/coffeescript/classes/parser.php	/^    static function PrintTrace()$/;"	f
+Qa	client/js/jquery.min.js	/^(function(A,w){function ma(){if(!c.isReady){try{s.documentElement.doScroll("left")}catch(a){setTimeout(ma,1);return}c.ready()}}function Qa(a,b){b.src?c.ajax({url:b.src,async:false,dataType:"script"}):c.globalEval(b.text||b.textContent||b.innerHTML||"");b.parentNode&&b.parentNode.removeChild(b)}function X(a,b,d,f,e,j){var i=a.length;if(typeof b==="object"){for(var o in b)X(a,o,b[o],f,e,d);return a}if(d!==w){f=!j&&f&&c.isFunction(d);for(o=0;o<i;o++)e(a[o],b,f?d.call(a[o],o,e(a[o],b)):d,j);return a}return i?$/;"	f
+REGEX	client/lib/coffeescript/classes/lexer.php	/^  static $REGEX             = '%^\/(?![\\s=])[^[\/\\n\\\\\\\\]*(?:(?:\\\\\\\\[\\s\\S]|\\[[^\\]\\n\\\\\\\\]*(?:\\\\\\\\[\\s\\S][^\\]\\n\\\\\\\\]*)*\\])[^[\/\\n\\\\\\\\]*)*\/[imgy]{0,4}(?!\\w)%';$/;"	v
+RELATION	client/lib/coffeescript/classes/lexer.php	/^  static $RELATION          = array('IN', 'OF', 'INSTANCEOF');$/;"	v
+Rewriter	client/lib/coffeescript/classes/rewriter.php	/^class Rewriter$/;"	c
+SHIFT	client/lib/coffeescript/classes/lexer.php	/^  static $SHIFT             = array('<<', '>>', '>>>');$/;"	v
+SIMPLENUM	client/lib/coffeescript/classes/nodes.php	/^define('SIMPLENUM',   '\/^[+-]?\\d+$\/');$/;"	d
+SIMPLESTR	client/lib/coffeescript/classes/lexer.php	/^  static $SIMPLESTR         = '\/^\\'[^\\\\\\\\\\']*(?:\\\\\\\\.[^\\\\\\\\\\']*)*\\'\/';$/;"	v
+SINGLE_CLOSERS	client/lib/coffeescript/classes/rewriter.php	/^  static $SINGLE_CLOSERS = array('TERMINATOR', 'CATCH', 'FINALLY', 'ELSE', 'OUTDENT', 'LEADING_WHEN');$/;"	v
+SINGLE_LINERS	client/lib/coffeescript/classes/rewriter.php	/^  static $SINGLE_LINERS = array('ELSE', '->', '=>', 'TRY', 'FINALLY', 'THEN');$/;"	v
+Scope	client/lib/coffeescript/classes/scope.php	/^class Scope$/;"	c
+Server	server/lib/WebSocket/Server.php	/^class Server extends Socket$/;"	c
+Socket	server/lib/WebSocket/Socket.php	/^class Socket$/;"	c
+SplClassLoader	server/lib/SplClassLoader.php	/^class SplClassLoader$/;"	c
+StatusApplication	server/lib/WebSocket/Application/StatusApplication.php	/^class StatusApplication extends Application$/;"	c
+String	client/js/json2.js	/^        String.prototype.toJSON =$/;"	c
+String.toJSON	client/js/json2.js	/^        String.prototype.toJSON =$/;"	m
+SyntaxError	client/lib/coffeescript/classes/errors.php	/^class SyntaxError extends Error {}$/;"	c
+TAB	client/lib/coffeescript/classes/nodes.php	/^define('TAB', '  ');$/;"	d
+TRAILING_SPACES	client/lib/coffeescript/classes/lexer.php	/^  static $TRAILING_SPACES   = '\/\\s+$\/';$/;"	v
+Trace	client/lib/coffeescript/classes/parser.php	/^    static function Trace($TraceFILE, $zTracePrompt)$/;"	f
+TraceFILE	client/lib/coffeescript/classes/parser.php	/^            $TraceFILE = 0;$/;"	v
+UNARY	client/lib/coffeescript/classes/lexer.php	/^  static $UNARY             = array('!', '~', 'NEW', 'TYPEOF', 'DELETE', 'DO');$/;"	v
+UTILITIES	client/lib/coffeescript/classes/nodes.php	/^$UTILITIES = array($/;"	v
+Value	client/lib/coffeescript/classes/helpers.php	/^class Value$/;"	c
+WHITESPACE	client/lib/coffeescript/classes/lexer.php	/^  static $WHITESPACE        = '\/^[^\\n\\S]+\/';$/;"	v
+WebsocketClient	client/lib/class.websocket_client.php	/^class WebsocketClient$/;"	c
+X	client/js/jquery.min.js	/^(function(A,w){function ma(){if(!c.isReady){try{s.documentElement.doScroll("left")}catch(a){setTimeout(ma,1);return}c.ready()}}function Qa(a,b){b.src?c.ajax({url:b.src,async:false,dataType:"script"}):c.globalEval(b.text||b.textContent||b.innerHTML||"");b.parentNode&&b.parentNode.removeChild(b)}function X(a,b,d,f,e,j){var i=a.length;if(typeof b==="object"){for(var o in b)X(a,o,b[o],f,e,d);return a}if(d!==w){f=!j&&f&&c.isFunction(d);for(o=0;o<i;o++)e(a[o],b,f?d.call(a[o],o,e(a[o],b)):d,j);return a}return i?$/;"	f
+Y	client/js/jquery.min.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+Z	client/js/jquery.min.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+_Socket	client/lib/class.websocket_client.php	/^		$this->_Socket = fsockopen($host, $port, $errno, $errstr, 2);$/;"	v
+_Socket	client/lib/class.websocket_client.php	/^	private $_Socket = null;$/;"	v
+__construct	client/lib/class.websocket_client.php	/^	public function __construct() { }$/;"	f
+__construct	client/lib/coffeescript/classes/errors.php	/^  function __construct($message)$/;"	f
+__construct	client/lib/coffeescript/classes/helpers.php	/^  function __construct($v)$/;"	f
+__construct	client/lib/coffeescript/classes/lexer.php	/^  function __construct($code, $options)$/;"	f
+__construct	client/lib/coffeescript/classes/nodes/base.php	/^  function __construct() {}$/;"	f
+__construct	client/lib/coffeescript/classes/parser.php	/^    function __construct($s, $m = array())$/;"	f
+__construct	client/lib/coffeescript/classes/rewriter.php	/^  function __construct($tokens)$/;"	f
+__construct	client/lib/coffeescript/classes/scope.php	/^  function __construct($parent, $expressions, $method)$/;"	f
+__construct	server/lib/SplClassLoader.php	/^    public function __construct($ns = null, $includePath = null)$/;"	f
+__construct	server/lib/WebSocket/Application/Application.php	/^    protected function __construct() { }$/;"	f
+__construct	server/lib/WebSocket/Connection.php	/^	public function __construct($server, $socket)$/;"	f
+__construct	server/lib/WebSocket/Server.php	/^    public function __construct($host = 'localhost', $port = 8000, $ssl = false)$/;"	f
+__construct	server/lib/WebSocket/Socket.php	/^	public function __construct($host = 'localhost', $port = 8000, $ssl = false)$/;"	f
+__destruct	client/lib/class.websocket_client.php	/^	public function __destruct()$/;"	f
+__destruct	client/lib/coffeescript/classes/parser.php	/^    function __destruct()$/;"	f
+__toString	client/lib/coffeescript/classes/helpers.php	/^  function __toString()$/;"	f
+__toString	client/lib/coffeescript/classes/nodes/base.php	/^  function __toString()$/;"	f
+__toString	client/lib/coffeescript/classes/parser.php	/^    function __toString()$/;"	f
+_actionEcho	server/lib/WebSocket/Application/DemoApplication.php	/^	private function _actionEcho($text)$/;"	f
+_actionSetFilename	server/lib/WebSocket/Application/DemoApplication.php	/^	private function _actionSetFilename($filename)$/;"	f
+_addIpToStorage	server/lib/WebSocket/Server.php	/^	private function _addIpToStorage($ip)$/;"	f
+_allowedOrigins	server/lib/WebSocket/Server.php	/^	private $_allowedOrigins = array();$/;"	v
+_cacheDir	client/lib/coffeescript/class.jstocoffee.php	/^			$this->_cacheDir = $path;$/;"	v
+_cacheDir	client/lib/coffeescript/class.jstocoffee.php	/^	private $_cacheDir = '';$/;"	v
+_cacheJs	client/lib/coffeescript/class.jstocoffee.php	/^	private function _cacheJs($js, $coffeeFile, $coffeeHash)$/;"	f
+_checkMaxConnectionsPerIp	server/lib/WebSocket/Server.php	/^	private function _checkMaxConnectionsPerIp($ip)$/;"	f
+_checkOrigin	server/lib/WebSocket/Server.php	/^		$this->_checkOrigin = $doOriginCheck;$/;"	v
+_checkOrigin	server/lib/WebSocket/Server.php	/^	private $_checkOrigin = true;$/;"	v
+_checkRequestLimit	server/lib/WebSocket/Server.php	/^	private function _checkRequestLimit($clientId)$/;"	f
+_clients	server/lib/WebSocket/Application/DemoApplication.php	/^    private $_clients = array();$/;"	v
+_clients	server/lib/WebSocket/Application/StatusApplication.php	/^    private $_clients = array();$/;"	v
+_coffeeDir	client/lib/coffeescript/class.jstocoffee.php	/^	private $_coffeeDir = array();$/;"	v
+_connected	client/lib/class.websocket_client.php	/^		$this->_connected = ($keyAccept === $expectedResonse) ? true : false;$/;"	v
+_connected	client/lib/class.websocket_client.php	/^		$this->_connected = false;$/;"	v
+_connected	client/lib/class.websocket_client.php	/^		$this->_connected = true;$/;"	v
+_connected	client/lib/class.websocket_client.php	/^	private $_connected = false;$/;"	v
+_dataBuffer	server/lib/WebSocket/Connection.php	/^			$this->_dataBuffer = '';$/;"	v
+_dataBuffer	server/lib/WebSocket/Connection.php	/^	private $_dataBuffer = '';$/;"	v
+_decodeData	server/lib/WebSocket/Application/Application.php	/^	protected function _decodeData($data)$/;"	f
+_encodeData	server/lib/WebSocket/Application/Application.php	/^	protected function _encodeData($action, $data)$/;"	f
+_fileExtension	server/lib/SplClassLoader.php	/^        $this->_fileExtension = $fileExtension;$/;"	v
+_fileExtension	server/lib/SplClassLoader.php	/^    private $_fileExtension = '.php';$/;"	v
+_filename	server/lib/WebSocket/Application/DemoApplication.php	/^			$this->_filename = $filename;$/;"	v
+_filename	server/lib/WebSocket/Application/DemoApplication.php	/^		$this->_filename = '';$/;"	v
+_filename	server/lib/WebSocket/Application/DemoApplication.php	/^	private $_filename = '';$/;"	v
+_generateRandomString	client/lib/class.websocket_client.php	/^	private function _generateRandomString($length = 10, $addSpaces = true, $addNumbers = true)$/;"	f
+_getCoffeefilePath	client/lib/coffeescript/class.jstocoffee.php	/^	private function _getCoffeefilePath($coffeeFile)$/;"	f
+_getJs	client/lib/coffeescript/class.jstocoffee.php	/^	private function _getJs($coffeeFile)$/;"	f
+_host	client/lib/class.websocket_client.php	/^		$this->_host = $host;$/;"	v
+_host	client/lib/class.websocket_client.php	/^	private $_host;$/;"	v
+_hybi10Decode	client/lib/class.websocket_client.php	/^	private function _hybi10Decode($data)$/;"	f
+_hybi10Encode	client/lib/class.websocket_client.php	/^	private function _hybi10Encode($payload, $type = 'text', $masked = true)$/;"	f
+_includePath	server/lib/SplClassLoader.php	/^        $this->_includePath = $includePath;$/;"	v
+_includePath	server/lib/SplClassLoader.php	/^    private $_includePath;$/;"	v
+_ipStorage	server/lib/WebSocket/Server.php	/^	private $_ipStorage = array();$/;"	v
+_maxClients	server/lib/WebSocket/Server.php	/^		$this->_maxClients = (int)$max;$/;"	v
+_maxClients	server/lib/WebSocket/Server.php	/^	private $_maxClients = 30;$/;"	v
+_maxConnectionsPerIp	server/lib/WebSocket/Server.php	/^		$this->_maxConnectionsPerIp = $limit;$/;"	v
+_maxConnectionsPerIp	server/lib/WebSocket/Server.php	/^	private $_maxConnectionsPerIp = 5;$/;"	v
+_maxRequestsPerMinute	server/lib/WebSocket/Server.php	/^		$this->_maxRequestsPerMinute = $limit;$/;"	v
+_maxRequestsPerMinute	server/lib/WebSocket/Server.php	/^	private $_maxRequestsPerMinute = 50;$/;"	v
+_namespace	server/lib/SplClassLoader.php	/^        $this->_namespace = $ns;$/;"	v
+_namespace	server/lib/SplClassLoader.php	/^    private $_namespace;$/;"	v
+_namespaceSeparator	server/lib/SplClassLoader.php	/^        $this->_namespaceSeparator = $sep;$/;"	v
+_namespaceSeparator	server/lib/SplClassLoader.php	/^    private $_namespaceSeparator = '\\\\';$/;"	v
+_origin	client/lib/class.websocket_client.php	/^		$this->_origin = $origin;$/;"	v
+_origin	client/lib/class.websocket_client.php	/^	private $_origin;$/;"	v
+_path	client/lib/class.websocket_client.php	/^		$this->_path = $path;$/;"	v
+_path	client/lib/class.websocket_client.php	/^	private $_path;$/;"	v
+_port	client/lib/class.websocket_client.php	/^		$this->_port = $port;$/;"	v
+_port	client/lib/class.websocket_client.php	/^	private $_port;$/;"	v
+_removeIpFromStorage	server/lib/WebSocket/Server.php	/^	private function _removeIpFromStorage($ip)$/;"	f
+_requestStorage	server/lib/WebSocket/Server.php	/^	private $_requestStorage = array();$/;"	v
+_retvalue	client/lib/coffeescript/classes/parser.php	/^                                    $this->_retvalue = $val;     }$/;"	v
+_retvalue	client/lib/coffeescript/classes/parser.php	/^            $this->_retvalue = null;$/;"	v
+_retvalue	client/lib/coffeescript/classes/parser.php	/^        $this->_retvalue = $yy_lefthand_side = null;$/;"	v
+_retvalue	client/lib/coffeescript/classes/parser.php	/^    private $_retvalue;$/;"	v
+_sendAll	server/lib/WebSocket/Application/StatusApplication.php	/^	private function _sendAll($encodedData)$/;"	f
+_sendServerinfo	server/lib/WebSocket/Application/StatusApplication.php	/^	private function _sendServerinfo($client)$/;"	f
+_serverClientCount	server/lib/WebSocket/Application/StatusApplication.php	/^	private $_serverClientCount = 0;$/;"	v
+_serverClients	server/lib/WebSocket/Application/StatusApplication.php	/^	private $_serverClients = array();$/;"	v
+_serverInfo	server/lib/WebSocket/Application/StatusApplication.php	/^			$this->_serverInfo = $serverInfo;$/;"	v
+_serverInfo	server/lib/WebSocket/Application/StatusApplication.php	/^	private $_serverInfo = array();$/;"	v
+acc	client/lib/coffeescript/classes/nodes/assign.php	/^          $acc = $is_object ? preg_match(IDENTIFIER, $idx->unwrap()->value) : 0;$/;"	v
+acc	client/lib/coffeescript/classes/nodes/assign.php	/^          $acc = FALSE;$/;"	v
+acc	client/lib/coffeescript/classes/nodes/assign.php	/^      $acc = preg_match(IDENTIFIER, $idx->unwrap()->value);$/;"	v
+action	client/lib/coffeescript/classes/rewriter.php	/^        $action = function( & $token, $i) use ( & $self, $outdent)$/;"	v
+action	client/lib/coffeescript/classes/rewriter.php	/^    $action = function( & $token, $i) use ( & $self)$/;"	v
+action	client/lib/coffeescript/classes/rewriter.php	/^    $action = function( & $token, $i)$/;"	v
+action	client/lib/coffeescript/classes/rewriter.php	/^    $action = function($token, $i) use ( & $self)$/;"	v
+actionName	server/lib/WebSocket/Application/DemoApplication.php	/^		$actionName = '_action' . ucfirst($decodedData['action']);		$/;"	v
+add	client/lib/coffeescript/classes/scope.php	/^  function add($name, $type, $immediate = FALSE)$/;"	f
+add_body	client/lib/coffeescript/classes/nodes/while.php	/^  function add_body($body)$/;"	f
+add_bound_functions	client/lib/coffeescript/classes/nodes/class.php	/^  function add_bound_functions($options)$/;"	f
+add_else	client/lib/coffeescript/classes/nodes/if.php	/^  function add_else($else_body)$/;"	f
+add_implicit_braces	client/lib/coffeescript/classes/rewriter.php	/^  function add_implicit_braces()$/;"	f
+add_implicit_indentation	client/lib/coffeescript/classes/rewriter.php	/^  function add_implicit_indentation()$/;"	f
+add_implicit_parentheses	client/lib/coffeescript/classes/rewriter.php	/^  function add_implicit_parentheses()$/;"	f
+add_properties	client/lib/coffeescript/classes/nodes/class.php	/^  function add_properties($node, $name, $options)$/;"	f
+all_invertable	client/lib/coffeescript/classes/nodes/op.php	/^        $all_invertable = $all_invertable && isset(self::$INVERSIONS[$curr->operator]);$/;"	v
+all_invertable	client/lib/coffeescript/classes/nodes/op.php	/^      $all_invertable = TRUE;$/;"	v
+allsockets	server/lib/WebSocket/Socket.php	/^    protected $allsockets = array();$/;"	v
+alt	client/lib/coffeescript/classes/nodes/if.php	/^    $alt = ($tmp = $this->else_body_node()) ? $tmp->compile($options, LEVEL_LIST) : 'void 0';$/;"	v
+application	server/lib/WebSocket/Connection.php	/^		$this->application = $this->server->getApplication(substr($path, 1));$/;"	v
+application	server/lib/WebSocket/Connection.php	/^    private $application = null;	$/;"	v
+applications	server/lib/WebSocket/Server.php	/^    protected $applications = array();$/;"	v
+applySSLContext	server/lib/WebSocket/Socket.php	/^	private function applySSLContext()$/;"	f
+args	client/lib/coffeescript/classes/nodes.php	/^  $args = func_get_args();$/;"	v
+args	client/lib/coffeescript/classes/nodes/call.php	/^    $args = $this->filter_implicit_objects($this->args);$/;"	v
+args	client/lib/coffeescript/classes/nodes/call.php	/^    $args = implode(', ', $tmp);$/;"	v
+args	client/lib/coffeescript/classes/nodes/call.php	/^    $this->args = $args;$/;"	v
+args	client/lib/coffeescript/classes/nodes/closure.php	/^      $args = array(yy('Literal', 'this'));$/;"	v
+args	client/lib/coffeescript/classes/nodes/closure.php	/^    $args = array();$/;"	v
+args	client/lib/coffeescript/classes/nodes/splat.php	/^    $args = array_slice($list, $index);$/;"	v
+array	client/lib/coffeescript/classes/nodes/in.php	/^    $this->array = $array;$/;"	v
+as_key	client/lib/coffeescript/classes/nodes/base.php	/^  public $as_key = FALSE;$/;"	v
+as_reference	client/lib/coffeescript/classes/nodes/param.php	/^  function as_reference($options)$/;"	f
+assign	client/lib/coffeescript/classes/nodes/class.php	/^            $assign = $this->ctor = $func;$/;"	v
+assign	client/lib/coffeescript/classes/nodes/class.php	/^            $assign = yy('Assign', yy('Literal', $this->external_ctor), $func);$/;"	v
+assign	client/lib/coffeescript/classes/scope.php	/^  function assign($name, $value)$/;"	f
+assigned_variables	client/lib/coffeescript/classes/scope.php	/^  function assigned_variables()$/;"	f
+assignment_error	client/lib/coffeescript/classes/lexer.php	/^  function assignment_error()$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/arr.php	/^  function assigns($name)$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/assign.php	/^    $assigns = array();$/;"	v
+assigns	client/lib/coffeescript/classes/nodes/assign.php	/^  function assigns($name)$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/base.php	/^  public $assigns = FALSE;$/;"	v
+assigns	client/lib/coffeescript/classes/nodes/literal.php	/^  function assigns($name)$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/obj.php	/^  function assigns($name)$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/splat.php	/^  function assigns($name)$/;"	f
+assigns	client/lib/coffeescript/classes/nodes/value.php	/^  function assigns($name)$/;"	f
+attempt	client/lib/coffeescript/classes/lexer.php	/^        $attempt = $match[1][0];$/;"	v
+attempt	client/lib/coffeescript/classes/nodes/try.php	/^      $this->attempt = $this->attempt->make_return();$/;"	v
+attempt	client/lib/coffeescript/classes/nodes/try.php	/^    $this->attempt = $attempt;$/;"	v
+balanced_string	client/lib/coffeescript/classes/lexer.php	/^  function balanced_string($str, $end)$/;"	f
+bare	client/lib/coffeescript/classes/nodes/parens.php	/^    $bare = $options['level'] < LEVEL_OP && ($expr instanceof yy_Op || $expr instanceof yy_Call ||$/;"	v
+base	client/lib/coffeescript/classes/nodes/call.php	/^    $base = isset($this->variable->base) ? $this->variable->base : $this->variable;$/;"	v
+base	client/lib/coffeescript/classes/nodes/call.php	/^    $base = yy('Value', $this->variable);$/;"	v
+base	client/lib/coffeescript/classes/nodes/class.php	/^        $base = $assign->variable->base;$/;"	v
+base	client/lib/coffeescript/classes/nodes/for.php	/^        $base = $val;$/;"	v
+base	client/lib/coffeescript/classes/nodes/for.php	/^      $base = yy('Value', $ref);$/;"	v
+base	client/lib/coffeescript/classes/nodes/splat.php	/^    $base = array();$/;"	v
+base	client/lib/coffeescript/classes/nodes/value.php	/^      $base = yy('Value', yy('Parens', yy('Assign', $bref, $base)));$/;"	v
+base	client/lib/coffeescript/classes/nodes/value.php	/^    $base = yy('Value', $this->base, array_slice($this->properties, 0, -1));$/;"	v
+base	client/lib/coffeescript/classes/nodes/value.php	/^    $this->base = $base;$/;"	v
+bname	client/lib/coffeescript/classes/nodes/class.php	/^        $bname = $bvar->compile($options);$/;"	v
+body	client/lib/coffeescript/classes/lexer.php	/^    $body = preg_replace('\/'.$quote.'\/', '\\\\\\\\$0', $body);$/;"	v
+body	client/lib/coffeescript/classes/lexer.php	/^    $body = preg_replace_callback('\/\\\\\\\\([\\s\\S])\/', function($match) use ($quote)$/;"	v
+body	client/lib/coffeescript/classes/nodes/class.php	/^        $body = is_array($this->ctor->body) ? $this->ctor->body : array($this->ctor->body);$/;"	v
+body	client/lib/coffeescript/classes/nodes/class.php	/^    $this->body = $body === NULL ? yy('Block') : $body;$/;"	v
+body	client/lib/coffeescript/classes/nodes/code.php	/^    $this->body = $body ? $body : yy('Block');$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^      $body = "\\n{$body}\\n";$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^      $body = yy_Block::wrap(array(yy('If', $this->guard, $body)));$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^      $body = yy_Push::wrap($rvar, $body);$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^    $body = $body->compile(array_merge($options, array('indent' => $idt1)), LEVEL_TOP);$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^    $body = yy_Block::wrap(array($this->body));$/;"	v
+body	client/lib/coffeescript/classes/nodes/for.php	/^    $this->body = yy_Block::wrap(array($body));$/;"	v
+body	client/lib/coffeescript/classes/nodes/if.php	/^      $body = "\\n{$body}\\n{$this->tab}";$/;"	v
+body	client/lib/coffeescript/classes/nodes/if.php	/^      $this->body = yy('Block', array($this->body->make_return()));$/;"	v
+body	client/lib/coffeescript/classes/nodes/if.php	/^    $body = $this->body_node()->compile($options, LEVEL_LIST);$/;"	v
+body	client/lib/coffeescript/classes/nodes/if.php	/^    $body = $this->ensure_block($this->body)->compile($options);$/;"	v
+body	client/lib/coffeescript/classes/nodes/if.php	/^    $this->body = $body;$/;"	v
+body	client/lib/coffeescript/classes/nodes/parens.php	/^    $this->body = $body;$/;"	v
+body	client/lib/coffeescript/classes/nodes/range.php	/^      $body = "var {$vars}; {$cond} ? {$i} <{$this->equals} {$this->to_var} : {$i} >{$this->equals} {$this->to_var}; {$cond} ? {$i}++ : {$i}--";$/;"	v
+body	client/lib/coffeescript/classes/nodes/range.php	/^      $body = $this->compile_simple($options);$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^          $body = yy_Push::wrap($rvar, $body);$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^        $body = yy_Block::wrap(array(yy('If', $this->guard, $body)));$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^      $body = "\\n".$body->compile($options, LEVEL_TOP)."\\n{$this->tab}";$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^      $body = '';$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^    $body = $this->body;$/;"	v
+body	client/lib/coffeescript/classes/nodes/while.php	/^    $this->body = $body;$/;"	v
+body_node	client/lib/coffeescript/classes/nodes/if.php	/^  function body_node() $/;"	f
+bound	client/lib/coffeescript/classes/nodes/code.php	/^    $this->bound = $tag === 'boundfunc';$/;"	v
+bound_funcs	client/lib/coffeescript/classes/nodes/class.php	/^    $this->bound_funcs = array();$/;"	v
+bref	client/lib/coffeescript/classes/nodes/value.php	/^      $bref = yy('Literal', $options['scope']->free_variable('base'));$/;"	v
+bref	client/lib/coffeescript/classes/nodes/value.php	/^    $bref = NULL;$/;"	v
+buffer	client/lib/class.websocket_client.php	/^			$buffer = fread($this->_Socket, 512);$/;"	v
+buffer	client/lib/class.websocket_client.php	/^		$buffer = ' ';$/;"	v
+buffer	server/lib/WebSocket/Socket.php	/^			$buffer = '';$/;"	v
+buffer	server/lib/WebSocket/Socket.php	/^			$buffer = fread($resource, 8192);$/;"	v
+buffsize	server/lib/WebSocket/Socket.php	/^				$buffsize = ($metadata['unread_bytes'] > $buffsize) ? $buffsize : $metadata['unread_bytes'];$/;"	v
+buffsize	server/lib/WebSocket/Socket.php	/^			$buffsize = 8192;$/;"	v
+bytes	server/lib/WebSocket/Server.php	/^					$bytes = strlen($data);$/;"	v
+c.fn.init	client/js/jquery.min.js	/^function(b,d){return a.call(b,d,b)}))},end:function(){return this.prevObject||c(null)},push:ba,sort:[].sort,splice:[].splice};c.fn.init.prototype=c.fn;c.extend=c.fn.extend=function(){var a=arguments[0]||{},b=1,d=arguments.length,f=false,e,j,i,o;if(typeof a==="boolean"){f=a;a=arguments[1]||{};b=2}if(typeof a!=="object"&&!c.isFunction(a))a={};if(d===b){a=this;--b}for(;b<d;b++)if((e=arguments[b])!=null)for(j in e){i=a[j];o=e[j];if(a!==o)if(f&&o&&(c.isPlainObject(o)||c.isArray(o))){i=i&&(c.isPlainObject(i)||$/;"	c
+cache	client/lib/coffeescript/classes/nodes/base.php	/^  function cache($options, $level = NULL, $reused = NULL)$/;"	f
+cacheConent	client/lib/coffeescript/class.jstocoffee.php	/^			$cacheConent = array();$/;"	v
+cacheConent	client/lib/coffeescript/class.jstocoffee.php	/^		$cacheConent = unserialize($temp);$/;"	v
+cache_reference	client/lib/coffeescript/classes/nodes/value.php	/^  function cache_reference($options)$/;"	f
+call	client/lib/coffeescript/classes/nodes/call.php	/^        $call = $call->variable;$/;"	v
+call	client/lib/coffeescript/classes/nodes/call.php	/^    $call = $this;$/;"	v
+call	client/lib/coffeescript/classes/nodes/closure.php	/^    $call = yy('Call', $func, $args);$/;"	v
+call	client/lib/coffeescript/classes/nodes/op.php	/^      $call = yy('Call', $first, isset($first->params) ? $first->params : array());$/;"	v
+call_object	client/lib/coffeescript/classes/rewriter.php	/^      $call_object = ! $no_call && $tag === t('INDENT') &&$/;"	v
+calledClassName	server/lib/WebSocket/Application/Application.php	/^        $calledClassName = get_called_class();$/;"	v
+cases	client/lib/coffeescript/classes/nodes/switch.php	/^    $this->cases = $cases;$/;"	v
+catch_part	client/lib/coffeescript/classes/nodes/try.php	/^      $catch_part = " catch{$error_part}{\\n".$this->recovery->compile($options, LEVEL_TOP)."\\n{$this->tab}}";$/;"	v
+catch_part	client/lib/coffeescript/classes/nodes/try.php	/^      $catch_part = ' catch (_e) {}';$/;"	v
+catch_part	client/lib/coffeescript/classes/nodes/try.php	/^    $catch_part = '';$/;"	v
+cert	server/lib/WebSocket/Socket.php	/^			$cert    = openssl_csr_new($dn, $privkey);$/;"	v
+cert	server/lib/WebSocket/Socket.php	/^			$cert    = openssl_csr_sign($cert, null, $privkey, 365);			$/;"	v
+changed_sockets	server/lib/WebSocket/Server.php	/^			$changed_sockets = $this->allsockets;$/;"	v
+characters	client/lib/class.websocket_client.php	/^		$characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§$%&\/()=[]{}';$/;"	v
+check	client/lib/coffeescript/classes/scope.php	/^  function check($name, $immediate = FALSE)$/;"	f
+checkConnection	client/lib/class.websocket_client.php	/^	public function checkConnection()$/;"	f
+checkOrigin	server/lib/WebSocket/Server.php	/^	public function checkOrigin($domain)$/;"	f
+child	client/lib/coffeescript/classes/nodes/extends.php	/^    $this->child = $child;$/;"	v
+child	client/lib/coffeescript/classes/nodes/if.php	/^    $child = del($options, 'chainChild');$/;"	v
+children	client/lib/coffeescript/classes/nodes/access.php	/^  public $children = array('name');$/;"	v
+children	client/lib/coffeescript/classes/nodes/arr.php	/^  public $children = array('objects');$/;"	v
+children	client/lib/coffeescript/classes/nodes/assign.php	/^  public $children = array('variable', 'value');$/;"	v
+children	client/lib/coffeescript/classes/nodes/base.php	/^  public $children = array();$/;"	v
+children	client/lib/coffeescript/classes/nodes/block.php	/^  public $children = array('expressions');$/;"	v
+children	client/lib/coffeescript/classes/nodes/call.php	/^  public $children = array('variable', 'args');$/;"	v
+children	client/lib/coffeescript/classes/nodes/class.php	/^  public $children = array('variable', 'parent', 'body');$/;"	v
+children	client/lib/coffeescript/classes/nodes/code.php	/^  public $children = array('params', 'body');$/;"	v
+children	client/lib/coffeescript/classes/nodes/existence.php	/^  public $children = array('expression');$/;"	v
+children	client/lib/coffeescript/classes/nodes/extends.php	/^  public $children = array('child', 'parent');$/;"	v
+children	client/lib/coffeescript/classes/nodes/for.php	/^  public $children = array('body', 'source', 'guard', 'step');$/;"	v
+children	client/lib/coffeescript/classes/nodes/if.php	/^  public $children = array('condition', 'body', 'elsebody');$/;"	v
+children	client/lib/coffeescript/classes/nodes/in.php	/^  public $children = array('object', 'array');$/;"	v
+children	client/lib/coffeescript/classes/nodes/index.php	/^  public $children = array('index');$/;"	v
+children	client/lib/coffeescript/classes/nodes/obj.php	/^  public $children = array('properties');$/;"	v
+children	client/lib/coffeescript/classes/nodes/op.php	/^  public $children = array('first', 'second');$/;"	v
+children	client/lib/coffeescript/classes/nodes/param.php	/^  public $children = array('name', 'value');$/;"	v
+children	client/lib/coffeescript/classes/nodes/parens.php	/^  public $children = array('body');$/;"	v
+children	client/lib/coffeescript/classes/nodes/range.php	/^  public $children = array('from', 'to');$/;"	v
+children	client/lib/coffeescript/classes/nodes/return.php	/^  public $children = array('expression');$/;"	v
+children	client/lib/coffeescript/classes/nodes/slice.php	/^  public $children = array('range');$/;"	v
+children	client/lib/coffeescript/classes/nodes/splat.php	/^  public $children = array('name');$/;"	v
+children	client/lib/coffeescript/classes/nodes/switch.php	/^  public $children = array('subject', 'cases', 'otherwise');$/;"	v
+children	client/lib/coffeescript/classes/nodes/throw.php	/^  public $children = array('expression');$/;"	v
+children	client/lib/coffeescript/classes/nodes/try.php	/^  public $children = array('attempt', 'recovery', 'ensure');$/;"	v
+children	client/lib/coffeescript/classes/nodes/value.php	/^  public $children = array('base', 'properties');$/;"	v
+children	client/lib/coffeescript/classes/nodes/while.php	/^  public $children = array('condition', 'guard', 'body');$/;"	v
+chunk	client/lib/coffeescript/classes/lexer.php	/^    $this->chunk    = $code;$/;"	v
+classLoader	server/server.php	/^$classLoader = new SplClassLoader('WebSocket', __DIR__ . '\/lib');$/;"	v
+className	server/lib/SplClassLoader.php	/^                $className = substr($className, $lastNsPos + 1);$/;"	v
+client	server/lib/WebSocket/Server.php	/^						$client = $this->createConnection($ressource);$/;"	v
+client	server/lib/WebSocket/Server.php	/^					$client = $this->clients[(int)$socket];$/;"	v
+clientActivity	server/lib/WebSocket/Application/StatusApplication.php	/^	public function clientActivity($port)$/;"	f
+clientConnected	server/lib/WebSocket/Application/StatusApplication.php	/^	public function clientConnected($ip, $port)$/;"	f
+clientDisconnected	server/lib/WebSocket/Application/StatusApplication.php	/^	public function clientDisconnected($ip, $port)$/;"	f
+clientId	client/test_server.php	/^	$clientId = rand(0, $testClients-1);$/;"	v
+clientId	server/lib/WebSocket/Server.php	/^		$clientId = $client->getClientId();$/;"	v
+clientIp	server/lib/WebSocket/Server.php	/^		$clientIp = $client->getClientIp();$/;"	v
+clientPort	server/lib/WebSocket/Server.php	/^		$clientPort = $client->getClientPort();$/;"	v
+clients	client/test_server.php	/^$clients = array();$/;"	v
+clients	server/lib/WebSocket/Server.php	/^    protected $clients = array();$/;"	v
+close	server/lib/WebSocket/Connection.php	/^	public function close($statusCode = 1000)$/;"	f
+close_indentation	client/lib/coffeescript/classes/lexer.php	/^  function close_indentation()$/;"	f
+close_open_calls	client/lib/coffeescript/classes/rewriter.php	/^  function close_open_calls()$/;"	f
+close_open_indexes	client/lib/coffeescript/classes/rewriter.php	/^  function close_open_indexes()$/;"	f
+closure	client/lib/coffeescript/classes/nodes/base.php	/^    $closure = yy_Closure::wrap($this);$/;"	v
+code	client/lib/coffeescript/classes/lexer.php	/^      $code = "\\n{$code}";$/;"	v
+code	client/lib/coffeescript/classes/lexer.php	/^    $code = preg_replace(self::$TRAILING_SPACES, '', str_replace("\\r", '', $code));$/;"	v
+code	client/lib/coffeescript/classes/lexer.php	/^    $this->code     = $code;$/;"	v
+code	client/lib/coffeescript/classes/nodes/arr.php	/^    $code = array();$/;"	v
+code	client/lib/coffeescript/classes/nodes/arr.php	/^    $code = implode(', ', $code);$/;"	v
+code	client/lib/coffeescript/classes/nodes/assign.php	/^      $code = $value->compile($options);$/;"	v
+code	client/lib/coffeescript/classes/nodes/assign.php	/^    $code = "[].splice.apply({$name}, [{$from_decl}, {$to}].concat({$val_def})), {$val_ref}";$/;"	v
+code	client/lib/coffeescript/classes/nodes/assign.php	/^    $code = implode(', ', $assigns);$/;"	v
+code	client/lib/coffeescript/classes/nodes/block.php	/^        $code = $node->compile($options);$/;"	v
+code	client/lib/coffeescript/classes/nodes/block.php	/^      $code = $this->compile_node($options);$/;"	v
+code	client/lib/coffeescript/classes/nodes/block.php	/^    $code = $post = '';$/;"	v
+code	client/lib/coffeescript/classes/nodes/block.php	/^    $code = $this->compile_with_declarations($options);$/;"	v
+code	client/lib/coffeescript/classes/nodes/block.php	/^    $code = ($tmp = implode(', ', $codes)) ? $tmp : 'void 0';$/;"	v
+code	client/lib/coffeescript/classes/nodes/code.php	/^    $code = 'function';$/;"	v
+code	client/lib/coffeescript/classes/nodes/comment.php	/^      $code = $options['indent'].$code;$/;"	v
+code	client/lib/coffeescript/classes/nodes/comment.php	/^    $code = '\/*'.multident($this->comment, $this->tab).'*\/';$/;"	v
+code	client/lib/coffeescript/classes/nodes/existence.php	/^        $code = "typeof {$code} !== \\"undefined\\" && {$code} !== null";$/;"	v
+code	client/lib/coffeescript/classes/nodes/existence.php	/^        $code = "typeof {$code} === \\"undefined\\" || {$code} === null";$/;"	v
+code	client/lib/coffeescript/classes/nodes/existence.php	/^      $code = "{$code} {$sym} null";$/;"	v
+code	client/lib/coffeescript/classes/nodes/existence.php	/^    $code = $this->expression->compile($options, LEVEL_OP);$/;"	v
+code	client/lib/coffeescript/classes/nodes/if.php	/^    $code = "{$cond} ? {$body} : {$alt}";$/;"	v
+code	client/lib/coffeescript/classes/nodes/in.php	/^    $code = $sub.', '.$code;$/;"	v
+code	client/lib/coffeescript/classes/nodes/in.php	/^    $code = utility('indexOf').".call(".$this->array->compile($options, LEVEL_LIST).", {$ref}) "$/;"	v
+code	client/lib/coffeescript/classes/nodes/literal.php	/^      $code = $options['level'] >= LEVEL_ACCESS ? '(void 0)' : 'void 0';$/;"	v
+code	client/lib/coffeescript/classes/nodes/literal.php	/^      $code = '"'.$this->value.'"';$/;"	v
+code	client/lib/coffeescript/classes/nodes/literal.php	/^      $code = ''.$this->value;$/;"	v
+code	client/lib/coffeescript/classes/nodes/op.php	/^    $code = "{$fst} ".($this->invert() ? '&&' : '||').' '.$shared->compile($options).' '$/;"	v
+code	client/lib/coffeescript/classes/nodes/op.php	/^    $code = $this->first->compile($options, LEVEL_OP).' '.$this->operator.' '$/;"	v
+code	client/lib/coffeescript/classes/nodes/parens.php	/^    $code = $expr->compile($options, LEVEL_PAREN);$/;"	v
+code	client/lib/coffeescript/classes/nodes/splat.php	/^      $code = $list[0]->compile($options, LEVEL_LIST);$/;"	v
+code	client/lib/coffeescript/classes/nodes/splat.php	/^      $code = $node->compile($options, LEVEL_LIST);$/;"	v
+code	client/lib/coffeescript/classes/nodes/switch.php	/^    $code = $this->tab.'switch ('$/;"	v
+code	client/lib/coffeescript/classes/nodes/value.php	/^      $code = "($code)";$/;"	v
+code	client/lib/coffeescript/classes/nodes/value.php	/^    $code = $this->base->compile($options, count($props) ? LEVEL_ACCESS : NULL);$/;"	v
+code	client/lib/coffeescript/classes/nodes/while.php	/^    $code = $set.$this->tab.'while ('.$this->condition->compile($options, LEVEL_PAREN).") {{$body}}";$/;"	v
+codes	client/lib/coffeescript/classes/nodes/block.php	/^    $codes = array();$/;"	v
+coffee	client/lib/coffeescript/class.jstocoffee.php	/^		$coffee = file_get_contents($coffeeFile);$/;"	v
+coffeeFile	client/lib/coffeescript/class.jstocoffee.php	/^		$coffeeFile = preg_replace('#[^a-z0-9\\.]#', '', $coffeeFile);$/;"	v
+coffeeHash	client/lib/coffeescript/class.jstocoffee.php	/^			$coffeeHash = sha1_file($coffeeFile);$/;"	v
+colon	client/lib/coffeescript/classes/lexer.php	/^    $colon = isset($match[2]) ? $match[2] : NULL;$/;"	v
+comment	client/lib/coffeescript/classes/lexer.php	/^    $comment = $match[0];$/;"	v
+comment	client/lib/coffeescript/classes/nodes/comment.php	/^    $this->comment = $comment;$/;"	v
+comment_token	client/lib/coffeescript/classes/lexer.php	/^  function comment_token()$/;"	f
+compact	client/lib/coffeescript/classes/helpers.php	/^function compact(array $array)$/;"	f
+compacted	client/lib/coffeescript/classes/helpers.php	/^  $compacted = array();$/;"	v
+compile	client/lib/coffeescript/classes/nodes/access.php	/^  function compile($options, $level = NULL)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/base.php	/^  function compile($options, $level = NULL)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/block.php	/^  function compile($options, $level = NULL)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/extends.php	/^  function compile($options)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/index.php	/^  function compile($options)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/param.php	/^  function compile($options, $level = NULL)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/return.php	/^  function compile($options, $level = NULL)$/;"	f
+compile	client/lib/coffeescript/classes/nodes/splat.php	/^  function compile($options)$/;"	f
+compile	client/lib/coffeescript/coffeescript.php	/^function compile($code, $options = array(), & $tokens = NULL)$/;"	f
+compile_array	client/lib/coffeescript/classes/nodes/range.php	/^  function compile_array($options)$/;"	f
+compile_chain	client/lib/coffeescript/classes/nodes/op.php	/^  function compile_chain($options)$/;"	f
+compile_closure	client/lib/coffeescript/classes/nodes/base.php	/^  function compile_closure($options)$/;"	f
+compile_conditional	client/lib/coffeescript/classes/nodes/assign.php	/^  function compile_conditional($options)$/;"	f
+compile_existence	client/lib/coffeescript/classes/nodes/op.php	/^  function compile_existence($options)$/;"	f
+compile_expression	client/lib/coffeescript/classes/nodes/if.php	/^  function compile_expression($options)$/;"	f
+compile_loop_reference	client/lib/coffeescript/classes/nodes/base.php	/^  function compile_loop_reference($options, $name)$/;"	f
+compile_loop_test	client/lib/coffeescript/classes/nodes/in.php	/^  function compile_loop_test($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/arr.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/assign.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/block.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/call.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/class.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/code.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/comment.php	/^  function compile_node($options, $level = NULL)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/existence.php	/^  function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/for.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/if.php	/^  function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/in.php	/^  function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/literal.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/obj.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/op.php	/^  function compile_node($options, $level = NULL)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/parens.php	/^  public function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/range.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/return.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/slice.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/switch.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/throw.php	/^  function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/try.php	/^  function compile_node($options = array())$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/value.php	/^  function compile_node($options)$/;"	f
+compile_node	client/lib/coffeescript/classes/nodes/while.php	/^  function compile_node($options)$/;"	f
+compile_or_test	client/lib/coffeescript/classes/nodes/in.php	/^  function compile_or_test($options)$/;"	f
+compile_pattern_match	client/lib/coffeescript/classes/nodes/assign.php	/^  function compile_pattern_match($options)$/;"	f
+compile_root	client/lib/coffeescript/classes/nodes/block.php	/^  function compile_root($options)$/;"	f
+compile_simple	client/lib/coffeescript/classes/nodes/range.php	/^  function compile_simple($options)$/;"	f
+compile_splat	client/lib/coffeescript/classes/nodes/call.php	/^  function compile_splat($options, $splat_args)$/;"	f
+compile_splatted_array	client/lib/coffeescript/classes/nodes/splat.php	/^  static function compile_splatted_array($options, $list, $apply = FALSE)$/;"	f
+compile_splice	client/lib/coffeescript/classes/nodes/assign.php	/^  function compile_splice($options)$/;"	f
+compile_statement	client/lib/coffeescript/classes/nodes/if.php	/^  function compile_statement($options)$/;"	f
+compile_super	client/lib/coffeescript/classes/nodes/call.php	/^  function compile_super($args, $options)$/;"	f
+compile_unary	client/lib/coffeescript/classes/nodes/op.php	/^  function compile_unary($options)$/;"	f
+compile_variables	client/lib/coffeescript/classes/nodes/range.php	/^  function compile_variables($options)$/;"	f
+compile_with_declarations	client/lib/coffeescript/classes/nodes/block.php	/^  function compile_with_declarations($options)$/;"	f
+compiled	client/lib/coffeescript/classes/nodes/slice.php	/^    $compiled = $to ? $to->compile($options, LEVEL_PAREN) : '';$/;"	v
+cond	client/lib/coffeescript/classes/nodes/if.php	/^    $cond = $this->condition->compile($options, LEVEL_COND);$/;"	v
+cond	client/lib/coffeescript/classes/nodes/if.php	/^    $cond = $this->condition->compile($options, LEVEL_PAREN);$/;"	v
+cond	client/lib/coffeescript/classes/nodes/range.php	/^      $cond = "{$this->from_var} <= {$this->to_var}";$/;"	v
+cond	client/lib/coffeescript/classes/nodes/range.php	/^    $cond = "{$this->from_var} <= {$this->to_var}";$/;"	v
+cond	client/lib/coffeescript/classes/nodes/switch.php	/^          $cond = $cond->invert();$/;"	v
+cond_part	client/lib/coffeescript/classes/nodes/range.php	/^    $cond_part = "{$cond} ? {$idx} <{$this->equals} {$this->to_var} : {$idx} >{$this->equals} {$this->to_var}";$/;"	v
+cond_part	client/lib/coffeescript/classes/nodes/range.php	/^    $cond_part = $from <= $to ? "{$idx} <{$this->equals} {$to}" : "{$idx} >{$this->equals} {$to}";$/;"	v
+condition	client/lib/coffeescript/classes/nodes/if.php	/^    $this->condition = (isset($options['type']) && $options['type'] === 'unless') ? $condition->invert() : $condition;$/;"	v
+condition	client/lib/coffeescript/classes/nodes/while.php	/^    $this->condition = (isset($options['invert']) && $options['invert']) ? $/;"	v
+condition	client/lib/coffeescript/classes/rewriter.php	/^        $condition = function($token, $i) use ($starter)$/;"	v
+condition	client/lib/coffeescript/classes/rewriter.php	/^    $condition = function( & $token, $i) use ( & $self)$/;"	v
+condition	client/lib/coffeescript/classes/rewriter.php	/^    $condition = function($token, $i) $/;"	v
+condition	client/lib/coffeescript/classes/rewriter.php	/^    $condition = function($token, $i) use ( & $self)$/;"	v
+condition	client/lib/coffeescript/classes/rewriter.php	/^    $condition = function($token, $i)$/;"	v
+connect	client/lib/class.websocket_client.php	/^	public function connect($host, $port, $path, $origin = false)$/;"	f
+connectionId	server/lib/WebSocket/Connection.php	/^		$this->connectionId = md5($this->ip . $this->port . spl_object_hash($this));		$/;"	v
+connectionId	server/lib/WebSocket/Connection.php	/^	private $connectionId = null;$/;"	v
+constructor	client/lib/coffeescript/classes/nodes/access.php	/^  function constructor($name, $tag = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/arr.php	/^  function constructor($objs)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/assign.php	/^  function constructor($variable, $value, $context = '', $options = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/base.php	/^  function constructor() { return $this; }$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/block.php	/^  function constructor($nodes = array())$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/call.php	/^  function constructor($variable = NULL, $args = array(), $soak = FALSE)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/class.php	/^  function constructor($variable = NULL, $parent = NULL, $body = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/code.php	/^  function constructor($params = NULL, $body = NULL, $tag = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/comment.php	/^  function constructor($comment)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/existence.php	/^  function constructor($expression)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/extends.php	/^  function constructor($child, $parent)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/for.php	/^  function constructor($body, $source)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/if.php	/^  function constructor($condition, $body, $options = array())$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/in.php	/^  function constructor($object = NULL, $array = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/index.php	/^  function constructor($index)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/literal.php	/^  function constructor($value)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/obj.php	/^  function constructor($props, $generated = FALSE)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/op.php	/^  function constructor($op, $first, $second = NULL, $flip = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/param.php	/^  function constructor($name, $value = NULL, $splat = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/parens.php	/^  public function constructor($body)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/range.php	/^  function constructor($from, $to, $tag)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/return.php	/^  function constructor($expr = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/slice.php	/^  function constructor($range)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/splat.php	/^  function constructor($name)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/switch.php	/^  function constructor($subject = NULL, $cases = array(), $otherwise = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/throw.php	/^  function constructor($expression)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/try.php	/^  function constructor($attempt = NULL, $error = NULL, $recovery = NULL, $ensure = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/value.php	/^  function constructor($base = NULL, $props = NULL, $tag = NULL)$/;"	f
+constructor	client/lib/coffeescript/classes/nodes/while.php	/^  function constructor($condition = NULL, $options = NULL)$/;"	f
+contains	client/lib/coffeescript/classes/nodes/base.php	/^        $contains = TRUE;$/;"	v
+contains	client/lib/coffeescript/classes/nodes/base.php	/^    $contains = FALSE;$/;"	v
+contains	client/lib/coffeescript/classes/nodes/base.php	/^  function contains($pred)$/;"	f
+contains_type	client/lib/coffeescript/classes/nodes/base.php	/^  function contains_type($type)$/;"	f
+contents	client/lib/coffeescript/classes/lexer.php	/^      $contents = $match[1];$/;"	v
+context	client/lib/coffeescript/classes/nodes/assign.php	/^    $this->context = $context;$/;"	v
+context	client/lib/coffeescript/classes/nodes/code.php	/^    $this->context = $this->bound ? 'this' : NULL;$/;"	v
+context	server/lib/WebSocket/Socket.php	/^		$this->context = stream_context_create();$/;"	v
+context	server/lib/WebSocket/Socket.php	/^	protected $context = null;$/;"	v
+createConnection	server/lib/WebSocket/Server.php	/^    protected function createConnection($resource)$/;"	f
+createSocket	server/lib/WebSocket/Socket.php	/^	private function createSocket($host, $port)$/;"	f
+ctor	client/lib/coffeescript/classes/nodes.php	/^  function ctor() { this.constructor = child; }$/;"	f
+ctor	client/lib/coffeescript/classes/nodes/base.php	/^  public $ctor = NULL;$/;"	v
+ctor	client/lib/coffeescript/classes/nodes/class.php	/^      $this->ctor = yy('Code');$/;"	v
+curr	client/lib/coffeescript/classes/nodes/op.php	/^        $curr = $curr->first;$/;"	v
+curr	client/lib/coffeescript/classes/nodes/op.php	/^      $curr = $this;$/;"	v
+current	client/lib/coffeescript/classes/rewriter.php	/^      $current = $tokens[$i];$/;"	v
+currentServerInfo	server/lib/WebSocket/Application/StatusApplication.php	/^		$currentServerInfo = $this->_serverInfo;$/;"	v
+data	client/lib/class.websocket_client.php	/^		$data = 'ping?';$/;"	v
+data	server/lib/WebSocket/Application/StatusApplication.php	/^		$data = array(			$/;"	v
+data	server/lib/WebSocket/Application/StatusApplication.php	/^		$data = array($/;"	v
+data	server/lib/WebSocket/Connection.php	/^			$data = $this->_dataBuffer . $data;$/;"	v
+data	server/lib/WebSocket/Server.php	/^					$data = $this->readBuffer($socket);					$/;"	v
+dataLength	client/lib/class.websocket_client.php	/^			$dataLength = $payloadLength + $payloadOffset;$/;"	v
+dataLength	client/lib/class.websocket_client.php	/^			$dataLength = bindec($tmp) + $payloadOffset;$/;"	v
+dataLength	client/lib/class.websocket_client.php	/^		   $dataLength = bindec(sprintf('%08b', ord($data[2])) . sprintf('%08b', ord($data[3]))) + $payloadOffset;$/;"	v
+dataLength	server/lib/WebSocket/Connection.php	/^			$dataLength = $payloadLength + $payloadOffset;$/;"	v
+dataLength	server/lib/WebSocket/Connection.php	/^			$dataLength = bindec($tmp) + $payloadOffset;$/;"	v
+dataLength	server/lib/WebSocket/Connection.php	/^		   $dataLength = bindec(sprintf('%08b', ord($data[2])) . sprintf('%08b', ord($data[3]))) + $payloadOffset;$/;"	v
+debt	client/lib/coffeescript/classes/rewriter.php	/^    $debt = array();$/;"	v
+decl	client/lib/coffeescript/classes/nodes/class.php	/^      $decl = $tail instanceof yy_Access ? $tail->name->value : FALSE;$/;"	v
+decl	client/lib/coffeescript/classes/nodes/class.php	/^      $decl = $this->variable->base->value;$/;"	v
+decl	client/lib/coffeescript/classes/nodes/class.php	/^    $decl = $decl ? (preg_match(IDENTIFIER, $decl) ? $decl : FALSE) : FALSE;$/;"	v
+decl	client/lib/coffeescript/classes/nodes/class.php	/^    $decl = $this->determine_name();$/;"	v
+declared_variables	client/lib/coffeescript/classes/scope.php	/^  function declared_variables()$/;"	f
+decodedData	client/lib/class.websocket_client.php	/^		$decodedData = array();$/;"	v
+decodedData	server/lib/WebSocket/Application/Application.php	/^		$decodedData = json_decode($data, true);$/;"	v
+decodedData	server/lib/WebSocket/Application/DemoApplication.php	/^        $decodedData = $this->_decodeData($data);		$/;"	v
+decodedData	server/lib/WebSocket/Connection.php	/^		$decodedData = $this->hybi10Decode($data);		$/;"	v
+decodedData	server/lib/WebSocket/Connection.php	/^		$decodedData = array();$/;"	v
+def_part	client/lib/coffeescript/classes/nodes/for.php	/^        $def_part = "{$this->tab}{$ref} = {$svar};\\n";$/;"	v
+def_part	client/lib/coffeescript/classes/nodes/for.php	/^    $def_part = '';$/;"	v
+defs	client/lib/coffeescript/classes/nodes/for.php	/^    $defs = '';$/;"	v
+del	client/lib/coffeescript/classes/helpers.php	/^function del( & $obj, $key)$/;"	f
+dent	client/lib/coffeescript/classes/lexer.php	/^        $dent = array_pop($this->indents) - $this->outdebt;$/;"	v
+detect_end	client/lib/coffeescript/classes/rewriter.php	/^  function detect_end($i, $condition, $action)$/;"	f
+determine_name	client/lib/coffeescript/classes/nodes/class.php	/^  function determine_name()$/;"	f
+diff	client/lib/coffeescript/classes/lexer.php	/^      $diff = $size - $this->indent + $this->outdebt;$/;"	v
+disconnect	client/lib/class.websocket_client.php	/^	public function disconnect()$/;"	f
+dn	server/lib/WebSocket/Socket.php	/^			$dn = array($/;"	v
+doc	client/lib/coffeescript/classes/lexer.php	/^      $doc = preg_replace('\/\\n'.$indent.'\/', "\\n", $doc);$/;"	v
+doc	client/lib/coffeescript/classes/lexer.php	/^      $doc = preg_replace('\/^\\n\/', '', $doc);$/;"	v
+doc	client/lib/coffeescript/classes/lexer.php	/^    $doc = $this->sanitize_heredoc($match[2], array('quote' => $quote, 'indent' => NULL));$/;"	v
+domain	server/lib/WebSocket/Server.php	/^		$domain = (strpos($domain, '\/') !== false) ? substr($domain, 0, strpos($domain, '\/')) : $domain;$/;"	v
+domain	server/lib/WebSocket/Server.php	/^		$domain = str_replace('\/', '', $domain);$/;"	v
+domain	server/lib/WebSocket/Server.php	/^		$domain = str_replace('http:\/\/', '', $domain);$/;"	v
+domain	server/lib/WebSocket/Server.php	/^		$domain = str_replace('https:\/\/', '', $domain);$/;"	v
+domain	server/lib/WebSocket/Server.php	/^		$domain = str_replace('www.', '', $domain);$/;"	v
+done	client/lib/coffeescript/classes/parser.php	/^                $done = 0;$/;"	v
+each_child	client/lib/coffeescript/classes/nodes/base.php	/^  function each_child($func)$/;"	f
+else_body	client/lib/coffeescript/classes/nodes/if.php	/^      $this->else_body = $this->ensure_block($else_body);$/;"	v
+else_body	client/lib/coffeescript/classes/nodes/if.php	/^      $this->else_body = yy('Block', array($this->else_body->make_return()));$/;"	v
+else_body	client/lib/coffeescript/classes/nodes/if.php	/^    $this->else_body = NULL;$/;"	v
+else_body_node	client/lib/coffeescript/classes/nodes/if.php	/^  function else_body_node()$/;"	f
+encodedData	server/lib/WebSocket/Application/DemoApplication.php	/^		$encodedData = $this->_encodeData('echo', $text);		$/;"	v
+encodedData	server/lib/WebSocket/Application/StatusApplication.php	/^		$encodedData = $this->_encodeData('clientActivity', $port);$/;"	v
+encodedData	server/lib/WebSocket/Application/StatusApplication.php	/^		$encodedData = $this->_encodeData('clientConnected', $data);$/;"	v
+encodedData	server/lib/WebSocket/Application/StatusApplication.php	/^		$encodedData = $this->_encodeData('clientDisconnected', $data);$/;"	v
+encodedData	server/lib/WebSocket/Application/StatusApplication.php	/^		$encodedData = $this->_encodeData('serverInfo', $currentServerInfo);$/;"	v
+encodedData	server/lib/WebSocket/Application/StatusApplication.php	/^		$encodedData = $this->_encodeData('statusMsg', $data);		$/;"	v
+encodedData	server/lib/WebSocket/Connection.php	/^		$encodedData = $this->hybi10Encode($payload, $type, $masked);			$/;"	v
+end	client/lib/coffeescript/classes/lexer.php	/^        $end = $stack[count($stack) - 1];$/;"	v
+ensure	client/lib/coffeescript/classes/nodes/try.php	/^    $this->ensure = $ensure;$/;"	v
+ensure_balance	client/lib/coffeescript/classes/rewriter.php	/^  function ensure_balance($pairs)$/;"	f
+ensure_block	client/lib/coffeescript/classes/nodes/if.php	/^  function ensure_block($node)$/;"	f
+ensure_constructor	client/lib/coffeescript/classes/nodes/class.php	/^  function ensure_constructor($name)$/;"	f
+equals	client/lib/coffeescript/classes/nodes/range.php	/^    $this->equals = $this->exclusive ? '' : '=';$/;"	v
+error	client/lib/coffeescript/classes/nodes/try.php	/^    $this->error = $error;$/;"	v
+error_part	client/lib/coffeescript/classes/nodes/try.php	/^    $error_part = $this->error ? ' ('.$this->error->compile($options).') ' : ' ';$/;"	v
+escape_lines	client/lib/coffeescript/classes/lexer.php	/^  function escape_lines($str, $heredoc = NULL)$/;"	f
+exclusive	client/lib/coffeescript/classes/nodes/assign.php	/^    $exclusive = $tmp->range->exclusive;$/;"	v
+exclusive	client/lib/coffeescript/classes/nodes/base.php	/^  public $exclusive = NULL;$/;"	v
+exclusive	client/lib/coffeescript/classes/nodes/range.php	/^    $this->exclusive = $tag === 'exclusive';$/;"	v
+expected	client/lib/coffeescript/classes/parser.php	/^        $expected = self::$yyExpectedTokens[$state];$/;"	v
+expectedResonse	client/lib/class.websocket_client.php	/^		$expectedResonse = base64_encode(pack('H*', sha1($key . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11')));$/;"	v
+expr	client/lib/coffeescript/classes/nodes/block.php	/^      $expr = $expr->unwrap();$/;"	v
+expr	client/lib/coffeescript/classes/nodes/block.php	/^      $expr = $this->expressions[$len];$/;"	v
+expr	client/lib/coffeescript/classes/nodes/for.php	/^      $expr = $expr->unwrap_all();$/;"	v
+expr	client/lib/coffeescript/classes/nodes/parens.php	/^    $expr = $this->body->unwrap();$/;"	v
+expr	client/lib/coffeescript/classes/nodes/return.php	/^    $expr = (isset($this->expression) && $this->expression) ? $/;"	v
+expr	client/lib/coffeescript/classes/nodes/switch.php	/^      $expr = $this->last_non_comment($block->expressions);$/;"	v
+expression	client/lib/coffeescript/classes/nodes/base.php	/^  public $expression = NULL;$/;"	v
+expression	client/lib/coffeescript/classes/nodes/existence.php	/^    $this->expression = $expression;$/;"	v
+expression	client/lib/coffeescript/classes/nodes/return.php	/^      $this->expression = $expr;$/;"	v
+expression	client/lib/coffeescript/classes/nodes/throw.php	/^    $this->expression = $expression;$/;"	v
+expressions	client/lib/coffeescript/classes/nodes/block.php	/^      $this->expressions = $rest;$/;"	v
+expressions	client/lib/coffeescript/classes/nodes/block.php	/^    $this->expressions = compact(flatten($nodes));$/;"	v
+expressions	client/lib/coffeescript/classes/nodes/while.php	/^    $expressions = isset($this->body->expressions) ? $this->body->expressions : array();$/;"	v
+expressions	client/lib/coffeescript/classes/scope.php	/^    $this->expressions = $expressions;$/;"	v
+exprs	client/lib/coffeescript/classes/nodes/class.php	/^    $exprs = array();$/;"	v
+exprs	client/lib/coffeescript/classes/nodes/code.php	/^    $exprs = array();$/;"	v
+extend	client/lib/coffeescript/classes/helpers.php	/^function extend($obj, $properties)$/;"	f
+external_ctor	client/lib/coffeescript/classes/nodes/class.php	/^            $this->external_ctor = $options['scope']->free_variable('class');$/;"	v
+fileName	server/lib/SplClassLoader.php	/^                $fileName = str_replace($this->_namespaceSeparator, DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;$/;"	v
+fileName	server/lib/SplClassLoader.php	/^            $fileName = '';$/;"	v
+filePath	server/lib/WebSocket/Application/DemoApplication.php	/^		$filePath = substr(__FILE__, 0, strpos(__FILE__, 'server')) . 'tmp\/';$/;"	v
+filename	server/lib/WebSocket/Application/DemoApplication.php	/^			$filename = substr($filename, strrpos($filename, '\/')+1);$/;"	v
+filename	server/lib/WebSocket/Application/DemoApplication.php	/^			$filename = substr($filename, strrpos($filename, '\\\\')+1);$/;"	v
+filter_implicit_objects	client/lib/coffeescript/classes/nodes/arr.php	/^  function filter_implicit_objects()$/;"	f
+filter_implicit_objects	client/lib/coffeescript/classes/nodes/call.php	/^  function filter_implicit_objects($list)$/;"	f
+find	client/lib/coffeescript/classes/scope.php	/^  function find($name, $options = array())$/;"	f
+first	client/lib/coffeescript/classes/nodes/op.php	/^        $first = yy('Parens', $first);$/;"	v
+first	client/lib/coffeescript/classes/nodes/op.php	/^      $this->first = yy('Parens', $this->first);$/;"	v
+first	client/lib/coffeescript/classes/nodes/op.php	/^    $this->first = $first;$/;"	v
+firstByteBinary	client/lib/class.websocket_client.php	/^		$firstByteBinary = sprintf('%08b', ord($data[0]));		$/;"	v
+firstByteBinary	server/lib/WebSocket/Connection.php	/^		$firstByteBinary = sprintf('%08b', ord($data[0]));		$/;"	v
+flatten	client/lib/coffeescript/classes/helpers.php	/^function flatten(array $array)$/;"	f
+flattened	client/lib/coffeescript/classes/helpers.php	/^      $flattened = array_merge($flattened, flatten($v));$/;"	v
+flattened	client/lib/coffeescript/classes/helpers.php	/^  $flattened = array();$/;"	v
+flip	client/lib/coffeescript/classes/nodes/op.php	/^    $this->flip = !! $flip;$/;"	v
+fn	client/lib/coffeescript/classes/nodes/for.php	/^      $fn = (isset($val->base) && $val->base) ? $val->base->unwrap_all() : $val;$/;"	v
+for_part	client/lib/coffeescript/classes/nodes/for.php	/^        $for_part = "{$for_var_part}; {$ivar} < {$lvar}; {$step_part}";$/;"	v
+for_part	client/lib/coffeescript/classes/nodes/for.php	/^      $for_part = "{$ivar} in {$svar}";$/;"	v
+for_part	client/lib/coffeescript/classes/nodes/for.php	/^      $for_part = $source->compile(array_merge($options, array('index' => $ivar, 'step' => $this->step)));$/;"	v
+for_var_part	client/lib/coffeescript/classes/nodes/for.php	/^        $for_var_part = "{$ivar} = 0, {$lvar} = {$svar}.length";$/;"	v
+forced_identifier	client/lib/coffeescript/classes/lexer.php	/^    $forced_identifier = $colon || ($prev = last($this->tokens)) && $/;"	v
+found	client/lib/coffeescript/classes/scope.php	/^    $found = !! $this->type($name);$/;"	v
+frame	client/lib/class.websocket_client.php	/^		$frame = '';$/;"	v
+frame	client/lib/class.websocket_client.php	/^		$frame = implode('', $frameHead);$/;"	v
+frame	server/lib/WebSocket/Connection.php	/^		$frame = '';$/;"	v
+frame	server/lib/WebSocket/Connection.php	/^		$frame = implode('', $frameHead);$/;"	v
+frameHead	client/lib/class.websocket_client.php	/^			$frameHead = array_merge($frameHead, $mask);			$/;"	v
+frameHead	client/lib/class.websocket_client.php	/^		$frameHead = array();$/;"	v
+frameHead	server/lib/WebSocket/Connection.php	/^			$frameHead = array_merge($frameHead, $mask);			$/;"	v
+frameHead	server/lib/WebSocket/Connection.php	/^		$frameHead = array();$/;"	v
+framePayload	client/lib/class.websocket_client.php	/^		$framePayload = array();	$/;"	v
+framePayload	server/lib/WebSocket/Connection.php	/^		$framePayload = array();	$/;"	v
+free_variable	client/lib/coffeescript/classes/scope.php	/^  function free_variable($type)$/;"	f
+from	client/lib/coffeescript/classes/nodes/assign.php	/^    $from = $tmp->range->from;$/;"	v
+from	client/lib/coffeescript/classes/nodes/base.php	/^  public $from = NULL;$/;"	v
+from	client/lib/coffeescript/classes/nodes/range.php	/^    $this->from = $from;$/;"	v
+from	client/lib/coffeescript/classes/nodes/slice.php	/^    $from = $this->range->from;$/;"	v
+from_num	client/lib/coffeescript/classes/nodes/range.php	/^    $this->from_num = isset($from_num[0]) ? $from_num[0] : NULL;$/;"	v
+from_num	client/lib/coffeescript/classes/nodes/range.php	/^  public $from_num = 0;$/;"	v
+from_str	client/lib/coffeescript/classes/nodes/slice.php	/^    $from_str = $from ? $from->compile($options, LEVEL_PAREN) : '0';$/;"	v
+front	client/lib/coffeescript/classes/nodes/base.php	/^  public $front = NULL;$/;"	v
+fst	client/lib/coffeescript/classes/nodes/op.php	/^      $fst = $this->first;$/;"	v
+fst	client/lib/coffeescript/classes/nodes/op.php	/^      $fst = yy('Parens', yy('Assign', $ref, $this->first));$/;"	v
+fst	client/lib/coffeescript/classes/nodes/op.php	/^    $fst = $this->first->compile($options, LEVEL_OP);$/;"	v
+fst	client/lib/coffeescript/classes/nodes/value.php	/^            $fst = yy('Parens', yy('Assign', $ref, $fst));$/;"	v
+fst	client/lib/coffeescript/classes/nodes/value.php	/^          $fst = yy('Value', $this->base, array_slice($this->properties, 0, $i));$/;"	v
+fun	client/lib/coffeescript/classes/nodes/call.php	/^      $fun = "($ref = ".$base->compile($options, LEVEL_LIST).')'.$name->compile($options).'';$/;"	v
+fun	client/lib/coffeescript/classes/nodes/call.php	/^      $fun = $base->compile($options, LEVEL_ACCESS);$/;"	v
+fun	client/lib/coffeescript/classes/nodes/call.php	/^      $fun = preg_match(SIMPLENUM, $fun) ? "($fun)" : $fun;$/;"	v
+func	client/lib/coffeescript/classes/nodes/class.php	/^        $func = $assign->value;$/;"	v
+func	client/lib/coffeescript/classes/nodes/closure.php	/^      $func = yy('Value', $func, array(yy('Access', $meth)));$/;"	v
+func	client/lib/coffeescript/classes/nodes/closure.php	/^    $func = yy('Code', array(), yy_Block::wrap(array($expressions)));$/;"	v
+function.pa	client/js/jquery.min.js	/^j.length;n<r;n++)for(k=0;k<u.length;k++){i=u[k];if(j[n].selector===i.selector){o=j[n].elem;f=null;if(i.preType==="mouseenter"||i.preType==="mouseleave")f=c(a.relatedTarget).closest(i.selector)[0];if(!f||f!==o)d.push({elem:o,handleObj:i})}}n=0;for(r=d.length;n<r;n++){j=d[n];a.currentTarget=j.elem;a.data=j.handleObj.data;a.handleObj=j.handleObj;if(j.handleObj.origHandler.apply(j.elem,e)===false){b=false;break}}return b}}function pa(a,b){return"live."+(a&&a!=="*"?a+".":"")+b.replace(\/\\.\/g,"`").replace(\/ \/g,$/;"	f
+function.qa	client/js/jquery.min.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+fwrite	server/lib/WebSocket/Socket.php	/^			$fwrite = @fwrite($resource, substr($string, $written));			$/;"	v
+generated	client/lib/coffeescript/classes/nodes/obj.php	/^    $this->generated = $generated;$/;"	v
+generated	client/lib/coffeescript/classes/parser.php	/^        $generated = isset($token['generatedValue']) ? $token['generatedValue'] : FALSE;$/;"	v
+generated	client/lib/coffeescript/classes/parser.php	/^    public $generated = FALSE;$/;"	v
+getApplication	server/lib/WebSocket/Server.php	/^	public function getApplication($key)$/;"	f
+getCheckOrigin	server/lib/WebSocket/Server.php	/^	public function getCheckOrigin()$/;"	f
+getClientApplication	server/lib/WebSocket/Connection.php	/^	public function getClientApplication()$/;"	f
+getClientId	server/lib/WebSocket/Connection.php	/^	public function getClientId()$/;"	f
+getClientIp	server/lib/WebSocket/Connection.php	/^	public function getClientIp()$/;"	f
+getClientPort	server/lib/WebSocket/Connection.php	/^	public function getClientPort()$/;"	f
+getClientSocket	server/lib/WebSocket/Connection.php	/^	public function getClientSocket()$/;"	f
+getFileExtension	server/lib/SplClassLoader.php	/^    public function getFileExtension()$/;"	f
+getIncludePath	server/lib/SplClassLoader.php	/^    public function getIncludePath()$/;"	f
+getMaxClients	server/lib/WebSocket/Server.php	/^	public function getMaxClients()$/;"	f
+getMaxConnectionsPerIp	server/lib/WebSocket/Server.php	/^	public function getMaxConnectionsPerIp()$/;"	f
+getNamespaceSeparator	server/lib/SplClassLoader.php	/^    public function getNamespaceSeparator()$/;"	f
+guard	client/lib/coffeescript/classes/nodes/for.php	/^    $this->guard = isset($source['guard']) ? $source['guard'] : NULL;$/;"	v
+guard	client/lib/coffeescript/classes/nodes/while.php	/^    $this->guard = isset($options['guard']) ? $options['guard'] : NULL;$/;"	v
+guard_part	client/lib/coffeescript/classes/nodes/for.php	/^        $guard_part = "\\n{$idt1}if (!".utility('hasProp').".call({$svar}, {$ivar})) continue;";$/;"	v
+guard_part	client/lib/coffeescript/classes/nodes/for.php	/^    $guard_part = '';$/;"	v
+handle	server/lib/WebSocket/Connection.php	/^    private function handle($data)$/;"	f
+handshake	server/lib/WebSocket/Connection.php	/^    private function handshake($data)$/;"	f
+handshaked	server/lib/WebSocket/Connection.php	/^		$this->handshaked = true;$/;"	v
+handshaked	server/lib/WebSocket/Connection.php	/^    private $handshaked = false;$/;"	v
+has_assignments	client/lib/coffeescript/classes/scope.php	/^    $this->has_assignments = TRUE;$/;"	v
+has_assignments	client/lib/coffeescript/classes/scope.php	/^  function has_assignments()$/;"	f
+has_assignments	client/lib/coffeescript/classes/scope.php	/^  private $has_assignments = FALSE;$/;"	v
+has_declarations	client/lib/coffeescript/classes/scope.php	/^  function has_declarations()$/;"	f
+has_properties	client/lib/coffeescript/classes/nodes/value.php	/^  function has_properties()$/;"	f
+header	client/lib/class.websocket_client.php	/^		$header = "GET " . $path . " HTTP\/1.1\\r\\n";$/;"	v
+headers	server/lib/WebSocket/Connection.php	/^		$headers = array();$/;"	v
+herecomment	client/lib/coffeescript/classes/lexer.php	/^    $herecomment = isset($options['herecomment']) ? $options['herecomment'] : NULL;$/;"	v
+heredoc	client/lib/coffeescript/classes/lexer.php	/^    $heredoc = $match[0];$/;"	v
+heredoc_token	client/lib/coffeescript/classes/lexer.php	/^  function heredoc_token()$/;"	f
+heregex_token	client/lib/coffeescript/classes/lexer.php	/^  function heregex_token($match)$/;"	f
+httpHeader	server/lib/WebSocket/Connection.php	/^		$httpHeader = 'HTTP\/1.1 ';$/;"	v
+hybi10Decode	server/lib/WebSocket/Connection.php	/^	private function hybi10Decode($data)$/;"	f
+hybi10Encode	server/lib/WebSocket/Connection.php	/^	private function hybi10Encode($payload, $type = 'text', $masked = true)$/;"	f
+i	client/lib/coffeescript/classes/helpers.php	/^  $i = count($array) - $back - 1;$/;"	v
+i	client/lib/coffeescript/classes/lexer.php	/^    $i = -1;$/;"	v
+i	client/lib/coffeescript/classes/lexer.php	/^    $i = count($tokens);$/;"	v
+i	client/lib/coffeescript/classes/nodes/base.php	/^    $i = count($list);$/;"	v
+i	client/lib/coffeescript/classes/nodes/range.php	/^    $i = $options['scope']->free_variable('i');$/;"	v
+i	client/lib/coffeescript/classes/parser.php	/^        $i = self::$yy_reduce_ofst[$stateno];$/;"	v
+i	client/lib/coffeescript/classes/parser.php	/^        $i = self::$yy_shift_ofst[$stateno];$/;"	v
+i	client/lib/coffeescript/classes/rewriter.php	/^    $i = 0;$/;"	v
+id	client/lib/coffeescript/classes/lexer.php	/^            $id = '!'. $id;$/;"	v
+id	client/lib/coffeescript/classes/lexer.php	/^        $id = self::$COFFEE_ALIASES[$id];$/;"	v
+id	client/lib/coffeescript/classes/lexer.php	/^        $id = wrap($id);$/;"	v
+id	server/lib/WebSocket/Application/DemoApplication.php	/^		$id = $client->getClientId();$/;"	v
+id	server/lib/WebSocket/Application/DemoApplication.php	/^        $id = $client->getClientId();		$/;"	v
+id	server/lib/WebSocket/Application/StatusApplication.php	/^		$id = $client->getClientId();$/;"	v
+id	server/lib/WebSocket/Application/StatusApplication.php	/^        $id = $client->getClientId();		$/;"	v
+identifier_error	client/lib/coffeescript/classes/lexer.php	/^  function identifier_error($word)$/;"	f
+identifier_token	client/lib/coffeescript/classes/lexer.php	/^  function identifier_token()$/;"	f
+idt	client/lib/coffeescript/classes/nodes/call.php	/^      $idt = $this->tab.TAB;$/;"	v
+idt	client/lib/coffeescript/classes/nodes/code.php	/^    $idt = $options['indent'];$/;"	v
+idt	client/lib/coffeescript/classes/nodes/obj.php	/^    $idt = $options['indent'] .= TAB;$/;"	v
+idt	client/lib/coffeescript/classes/nodes/range.php	/^    $idt = $this->tab.TAB;$/;"	v
+idt1	client/lib/coffeescript/classes/nodes/for.php	/^    $idt1 = $this->tab.TAB;$/;"	v
+idt1	client/lib/coffeescript/classes/nodes/switch.php	/^    $idt1 = $options['indent'].TAB;$/;"	v
+idt2	client/lib/coffeescript/classes/nodes/switch.php	/^    $idt2 = $options['indent'] = $idt1.TAB;$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^            $idx = $obj->this ? $obj->properties[0]->name : $obj;$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^            $idx = yy('Literal', 0);$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^          $idx = $obj->variable->base;$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^          $idx = yy('Literal', $splat ? $splat : $idx);$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^        $idx = $obj->variable->base;$/;"	v
+idx	client/lib/coffeescript/classes/nodes/assign.php	/^      $idx = $i;$/;"	v
+idx	client/lib/coffeescript/classes/nodes/range.php	/^    $idx = del($options, 'index');$/;"	v
+idx	client/lib/coffeescript/classes/rewriter.php	/^      $idx = $ago === t('@') ? $i - 2 : $i - 1;$/;"	v
+idx	client/lib/coffeescript/classes/rewriter.php	/^      $idx = ($token[0] === t('OUTDENT')) ? $i + 1 : $i;$/;"	v
+if_part	client/lib/coffeescript/classes/nodes/if.php	/^      $if_part = $this->tab.$if_part;$/;"	v
+if_part	client/lib/coffeescript/classes/nodes/if.php	/^    $if_part = "if ({$cond}) {{$body}}";$/;"	v
+ifn	client/lib/coffeescript/classes/nodes/call.php	/^      $ifn = unfold_soak($options, $call, 'variable');$/;"	v
+indebt	client/lib/coffeescript/classes/lexer.php	/^        $this->indebt = $size - $this->indent;$/;"	v
+indebt	client/lib/coffeescript/classes/lexer.php	/^      $this->indebt = 0;$/;"	v
+indebt	client/lib/coffeescript/classes/lexer.php	/^    $this->indebt   = 0;$/;"	v
+indent	client/lib/coffeescript/classes/lexer.php	/^          $indent = $attempt;$/;"	v
+indent	client/lib/coffeescript/classes/lexer.php	/^    $indent = $match[0];$/;"	v
+indent	client/lib/coffeescript/classes/lexer.php	/^    $indent = isset($options['indent']) ? $options['indent'] : NULL;$/;"	v
+indent	client/lib/coffeescript/classes/lexer.php	/^    $this->indent   = 0;$/;"	v
+indent	client/lib/coffeescript/classes/lexer.php	/^    $this->indent = $size;$/;"	v
+indent	client/lib/coffeescript/classes/nodes/obj.php	/^      $indent = $prop instanceof yy_Comment ? '' : $idt;$/;"	v
+indentation	client/lib/coffeescript/classes/rewriter.php	/^  function indentation($token)$/;"	f
+indents	client/lib/coffeescript/classes/lexer.php	/^    $this->indents  = array();$/;"	v
+index	client/lib/coffeescript/classes/lexer.php	/^    $this->index    = $options['index'];$/;"	v
+index	client/lib/coffeescript/classes/nodes/for.php	/^      $this->index = $tmp;$/;"	v
+index	client/lib/coffeescript/classes/nodes/for.php	/^    $index = $this->index ? $this->index->compile($options, LEVEL_LIST) : FALSE;$/;"	v
+index	client/lib/coffeescript/classes/nodes/for.php	/^    $this->index = isset($source['index']) ? $source['index'] : NULL;$/;"	v
+index	client/lib/coffeescript/classes/nodes/index.php	/^    $this->index = $index;$/;"	v
+index	client/lib/coffeescript/classes/nodes/splat.php	/^    $index = -1;$/;"	v
+index	client/lib/coffeescript/classes/scope.php	/^    $index = 0;$/;"	v
+index	server/lib/WebSocket/Server.php	/^		$index = array_search($resource, $this->allsockets);$/;"	v
+init	client/lib/coffeescript/classes/lexer.php	/^  static function init()$/;"	f
+init	client/lib/coffeescript/classes/rewriter.php	/^  static function init()$/;"	f
+inner	client/lib/coffeescript/classes/lexer.php	/^      $inner = substr($expr, 1, -1);$/;"	v
+inst	client/lib/coffeescript/classes/nodes.php	/^  $inst = call_user_func_array(array($inst, 'constructor'), $args);$/;"	v
+inst	client/lib/coffeescript/classes/nodes.php	/^  $inst = new $type;$/;"	v
+instances	server/lib/WebSocket/Application/Application.php	/^    protected static $instances = array();$/;"	v
+interpolate_string	client/lib/coffeescript/classes/lexer.php	/^  function interpolate_string($str, array $options = array()) \/\/ #{0}$/;"	f
+inverses	client/lib/coffeescript/classes/rewriter.php	/^    $inverses = array();$/;"	v
+invert	client/lib/coffeescript/classes/nodes/base.php	/^  function invert()$/;"	f
+invert	client/lib/coffeescript/classes/nodes/existence.php	/^  function invert()$/;"	f
+invert	client/lib/coffeescript/classes/nodes/in.php	/^  function invert()$/;"	f
+invert	client/lib/coffeescript/classes/nodes/op.php	/^  function invert()$/;"	f
+ip	server/lib/WebSocket/Connection.php	/^		$this->ip = $tmp[0];$/;"	v
+ip	server/lib/WebSocket/Connection.php	/^	private $ip;$/;"	v
+isMasked	client/lib/class.websocket_client.php	/^		$isMasked = ($secondByteBinary[0] == '1') ? true : false;$/;"	v
+isMasked	server/lib/WebSocket/Connection.php	/^		$isMasked = ($secondByteBinary[0] == '1') ? true : false;$/;"	v
+is_array	client/lib/coffeescript/classes/nodes/value.php	/^  function is_array()$/;"	f
+is_assignable	client/lib/coffeescript/classes/nodes/base.php	/^  function is_assignable()$/;"	f
+is_assignable	client/lib/coffeescript/classes/nodes/literal.php	/^  function is_assignable()$/;"	f
+is_assignable	client/lib/coffeescript/classes/nodes/splat.php	/^  function is_assignable()$/;"	f
+is_assignable	client/lib/coffeescript/classes/nodes/value.php	/^  function is_assignable()$/;"	f
+is_atomic	client/lib/coffeescript/classes/nodes/value.php	/^  function is_atomic()$/;"	f
+is_chain	client/lib/coffeescript/classes/nodes/if.php	/^      $this->is_chain = $else_body instanceof yy_If;$/;"	v
+is_chain	client/lib/coffeescript/classes/nodes/if.php	/^    $this->is_chain = FALSE;$/;"	v
+is_chain	client/lib/coffeescript/classes/nodes/if.php	/^  function is_chain()$/;"	f
+is_chainable	client/lib/coffeescript/classes/nodes/base.php	/^  function is_chainable()$/;"	f
+is_chainable	client/lib/coffeescript/classes/nodes/op.php	/^  function is_chainable()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/access.php	/^  function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/base.php	/^  function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/index.php	/^  function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/literal.php	/^  function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/param.php	/^  function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/parens.php	/^  public function is_complex()$/;"	f
+is_complex	client/lib/coffeescript/classes/nodes/value.php	/^  function is_complex()$/;"	f
+is_empty	client/lib/coffeescript/classes/nodes/block.php	/^  function is_empty()$/;"	f
+is_new	client/lib/coffeescript/classes/nodes/call.php	/^      $this->is_new = !! $set;$/;"	v
+is_new	client/lib/coffeescript/classes/nodes/call.php	/^      $this->is_new = TRUE;$/;"	v
+is_new	client/lib/coffeescript/classes/nodes/call.php	/^    $this->is_new = FALSE;$/;"	v
+is_new	client/lib/coffeescript/classes/nodes/call.php	/^  function is_new($set = NULL)$/;"	f
+is_new	client/lib/coffeescript/classes/nodes/call.php	/^  private $is_new;$/;"	v
+is_object	client/lib/coffeescript/classes/nodes/assign.php	/^    $is_object = $this->variable->is_object();$/;"	v
+is_object	client/lib/coffeescript/classes/nodes/base.php	/^  function is_object()$/;"	f
+is_object	client/lib/coffeescript/classes/nodes/value.php	/^  function is_object($only_generated = FALSE)$/;"	f
+is_simple_number	client/lib/coffeescript/classes/nodes/op.php	/^  function is_simple_number()$/;"	f
+is_simple_number	client/lib/coffeescript/classes/nodes/value.php	/^  function is_simple_number()$/;"	f
+is_splice	client/lib/coffeescript/classes/nodes/value.php	/^  function is_splice()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/base.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/block.php	/^  function is_statement($options)$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/code.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/comment.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/for.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/if.php	/^  function is_statement($options = array())$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/literal.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/return.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/switch.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/throw.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/try.php	/^  function is_statement()$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/value.php	/^  function is_statement($options)$/;"	f
+is_statement	client/lib/coffeescript/classes/nodes/while.php	/^  function is_statement()$/;"	f
+is_super	client/lib/coffeescript/classes/nodes/call.php	/^    $this->is_super = $variable === 'super';$/;"	v
+is_super	client/lib/coffeescript/classes/nodes/call.php	/^  function is_super()$/;"	f
+is_super	client/lib/coffeescript/classes/nodes/call.php	/^  private $is_super;$/;"	v
+is_unary	client/lib/coffeescript/classes/nodes/op.php	/^  function is_unary()$/;"	f
+is_undefined	client/lib/coffeescript/classes/nodes/base.php	/^  function is_undefined()$/;"	f
+is_undefined	client/lib/coffeescript/classes/nodes/literal.php	/^      $this->is_undefined = !! $set;$/;"	v
+is_undefined	client/lib/coffeescript/classes/nodes/literal.php	/^  function is_undefined($set = NULL)$/;"	f
+is_undefined	client/lib/coffeescript/classes/nodes/literal.php	/^  private $is_undefined = FALSE;$/;"	v
+ivar	client/lib/coffeescript/classes/nodes/assign.php	/^          $ivar = $options['scope']->free_variable('i');$/;"	v
+ivar	client/lib/coffeescript/classes/nodes/assign.php	/^        $ivar = 'undefined';$/;"	v
+ivar	client/lib/coffeescript/classes/nodes/for.php	/^    $ivar = $ivar ? $ivar : $scope->free_variable('i');$/;"	v
+ivar	client/lib/coffeescript/classes/nodes/for.php	/^    $ivar = $this->range ? $name : $index;$/;"	v
+j	client/lib/class.websocket_client.php	/^				$j = $i - $payloadOffset;$/;"	v
+j	server/lib/WebSocket/Connection.php	/^				$j = $i - $payloadOffset;$/;"	v
+join	client/lib/coffeescript/classes/nodes/obj.php	/^        $join = ",\\n";$/;"	v
+join	client/lib/coffeescript/classes/nodes/obj.php	/^        $join = "\\n";$/;"	v
+join	client/lib/coffeescript/classes/nodes/obj.php	/^        $join = '';$/;"	v
+js	client/lib/coffeescript/class.jstocoffee.php	/^			$js = CoffeeScript\\compile($coffee);$/;"	v
+js_token	client/lib/coffeescript/classes/lexer.php	/^  function js_token()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/base.php	/^  function jumps()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/block.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/code.php	/^  function jumps()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/for.php	/^  function jumps()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/if.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/literal.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/return.php	/^  function jumps()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/switch.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/throw.php	/^  function jumps()$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/try.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/value.php	/^  function jumps($options = array())$/;"	f
+jumps	client/lib/coffeescript/classes/nodes/while.php	/^  function jumps()$/;"	f
+k	client/lib/coffeescript/classes/rewriter.php	/^        $k = ($i + 1) + $j;$/;"	v
+key	client/lib/class.websocket_client.php	/^		$key = base64_encode($this->_generateRandomString(16, false, true));				$/;"	v
+key	client/lib/coffeescript/classes/rewriter.php	/^      $key = $k;$/;"	v
+key	client/lib/coffeescript/classes/rewriter.php	/^    $key = 0;$/;"	v
+keyAccept	client/lib/class.websocket_client.php	/^		$keyAccept = trim($matches[1]);$/;"	v
+klass	client/lib/coffeescript/classes/nodes/class.php	/^      $klass = yy('Assign', $this->variable, $klass);$/;"	v
+klass	client/lib/coffeescript/classes/nodes/class.php	/^    $klass = yy('Parens', yy_Closure::wrap($this->body), TRUE);$/;"	v
+last	client/lib/coffeescript/classes/helpers.php	/^function & last( & $array, $back = 0)$/;"	f
+last_jumps	client/lib/coffeescript/classes/nodes/for.php	/^    $last_jumps = $last_jumps ? $last_jumps->jumps() : FALSE;$/;"	v
+last_jumps	client/lib/coffeescript/classes/nodes/for.php	/^    $last_jumps = last($body->expressions);$/;"	v
+last_non_com	client/lib/coffeescript/classes/nodes/obj.php	/^    $last_non_com = $this->last_non_comment($this->properties);$/;"	v
+last_non_comment	client/lib/coffeescript/classes/nodes/base.php	/^  function last_non_comment($list)$/;"	f
+left	client/lib/coffeescript/classes/nodes/call.php	/^        $left = yy('Literal', $this->super_reference($options));$/;"	v
+left	client/lib/coffeescript/classes/nodes/call.php	/^      $left = yy('Literal', 'typeof '.$left->compile($options).' === "function"');$/;"	v
+len	client/lib/coffeescript/classes/lexer.php	/^      $len = count($this->indents) - 1;$/;"	v
+len	client/lib/coffeescript/classes/nodes/block.php	/^    $len = count($this->expressions);$/;"	v
+len	client/lib/coffeescript/classes/rewriter.php	/^      $len = count($stack) - 1;$/;"	v
+length	client/lib/coffeescript/classes/lexer.php	/^      $length = $this->heregex_token($match);$/;"	v
+length	client/lib/coffeescript/classes/lexer.php	/^    $this->length   = strlen($this->code);$/;"	v
+letter	client/lib/coffeescript/classes/lexer.php	/^      $letter = $str{$i};$/;"	v
+levels	client/lib/coffeescript/classes/rewriter.php	/^    $levels = 0;$/;"	v
+levels	client/lib/coffeescript/classes/rewriter.php	/^    $levels = array();$/;"	v
+lexer	client/lib/coffeescript/classes/lexer.php	/^        $lexer = new Lexer($inner, array($/;"	v
+lexer	client/lib/coffeescript/coffeescript.php	/^  $lexer = new Lexer($code, $options);$/;"	v
+line	client/lib/coffeescript/classes/lexer.php	/^    $this->line     = $options['line'];$/;"	v
+line	server/lib/WebSocket/Connection.php	/^            $line = chop($line);$/;"	v
+line_token	client/lib/coffeescript/classes/lexer.php	/^  function line_token()$/;"	f
+lines	server/lib/WebSocket/Connection.php	/^        $lines = preg_split("\/\\r\\n\/", $data);$/;"	v
+list	client/lib/coffeescript/classes/nodes/call.php	/^    $list = array();$/;"	v
+list	client/lib/coffeescript/classes/rewriter.php	/^      $list = array();$/;"	v
+lit	client/lib/coffeescript/classes/nodes/code.php	/^          $lit = yy('Literal', $ref->name->value.' == null');$/;"	v
+literal_args	client/lib/coffeescript/classes/nodes/closure.php	/^  static function literal_args($node)$/;"	f
+literal_this	client/lib/coffeescript/classes/nodes/closure.php	/^  static function literal_this($node)$/;"	f
+literal_token	client/lib/coffeescript/classes/lexer.php	/^  function literal_token()$/;"	f
+lname	client/lib/coffeescript/classes/nodes/class.php	/^    $lname = yy('Literal', $name);$/;"	v
+loadClass	server/lib/SplClassLoader.php	/^    public function loadClass($className)$/;"	f
+log	server/lib/WebSocket/Connection.php	/^    public function log($message, $type = 'info')$/;"	f
+log	server/lib/WebSocket/Server.php	/^    public function log($message, $type = 'info')$/;"	f
+lvar	client/lib/coffeescript/classes/nodes/for.php	/^        $lvar = $scope->free_variable('len');$/;"	v
+major	client/lib/coffeescript/classes/parser.php	/^    public $major;         \/* The major token value.  This is the code$/;"	v
+makeJavascript	client/lib/coffeescript/class.jstocoffee.php	/^	public function makeJavascript($coffeeFile)$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/base.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/block.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/comment.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/for.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/if.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/literal.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/parens.php	/^  public function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/return.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/switch.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/throw.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/try.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/value.php	/^  function make_return()$/;"	f
+make_return	client/lib/coffeescript/classes/nodes/while.php	/^  function make_return()$/;"	f
+make_string	client/lib/coffeescript/classes/lexer.php	/^  function make_string($body, $quote, $heredoc = NULL)$/;"	f
+map	client/lib/coffeescript/classes/helpers.php	/^  static $map =  array($/;"	v
+map	client/lib/coffeescript/classes/helpers.php	/^  static $map = array($/;"	v
+map	client/lib/coffeescript/classes/lexer.php	/^      $map = array($/;"	v
+map	client/lib/coffeescript/classes/lexer.php	/^    $map = array($/;"	v
+mapped	client/lib/coffeescript/classes/lexer.php	/^        $mapped = TRUE;$/;"	v
+mapped	client/lib/coffeescript/classes/lexer.php	/^    $mapped = FALSE;$/;"	v
+mask	client/lib/class.websocket_client.php	/^			$mask = array();$/;"	v
+mask	client/lib/class.websocket_client.php	/^			$mask = substr($data, 10, 4);$/;"	v
+mask	client/lib/class.websocket_client.php	/^			$mask = substr($data, 2, 4);	$/;"	v
+mask	client/lib/class.websocket_client.php	/^		   $mask = substr($data, 4, 4);$/;"	v
+mask	client/lib/class.websocket_client.php	/^		$mask = '';$/;"	v
+mask	server/lib/WebSocket/Connection.php	/^			$mask = array();$/;"	v
+mask	server/lib/WebSocket/Connection.php	/^			$mask = substr($data, 10, 4);$/;"	v
+mask	server/lib/WebSocket/Connection.php	/^			$mask = substr($data, 2, 4);	$/;"	v
+mask	server/lib/WebSocket/Connection.php	/^		   $mask = substr($data, 4, 4);$/;"	v
+mask	server/lib/WebSocket/Connection.php	/^		$mask = '';$/;"	v
+master	server/lib/WebSocket/Socket.php	/^    protected $master;$/;"	v
+match	client/lib/coffeescript/classes/rewriter.php	/^      $match = array_pop($stack);$/;"	v
+message	client/lib/coffeescript/classes/errors.php	/^    $this->message = $message;$/;"	v
+metadata	client/lib/coffeescript/classes/parser.php	/^                $this->metadata = $m->metadata;$/;"	v
+metadata	client/lib/coffeescript/classes/parser.php	/^                $this->metadata = $m;$/;"	v
+metadata	client/lib/coffeescript/classes/parser.php	/^                $this->metadata = array_merge($this->metadata, $x);$/;"	v
+metadata	client/lib/coffeescript/classes/parser.php	/^            $this->metadata = $s->metadata;$/;"	v
+metadata	client/lib/coffeescript/classes/parser.php	/^    public $metadata = array();$/;"	v
+metadata	server/lib/WebSocket/Socket.php	/^				$metadata = stream_get_meta_data($resource);			$/;"	v
+meth	client/lib/coffeescript/classes/nodes/closure.php	/^      $meth = yy('Literal', $mentions_args ? 'apply' : 'call');$/;"	v
+method	client/lib/coffeescript/classes/nodes/call.php	/^    $method = $options['scope']->method;$/;"	v
+method	client/lib/coffeescript/classes/scope.php	/^    $this->method = $method;$/;"	v
+minor	client/lib/coffeescript/classes/parser.php	/^    public $minor; \/* The user-supplied minor token value.  This$/;"	v
+move_out	client/lib/coffeescript/classes/lexer.php	/^        $move_out = 0;$/;"	v
+msg	server/lib/WebSocket/Application/DemoApplication.php	/^			$msg = 'Error receiving file.';$/;"	v
+msg	server/lib/WebSocket/Application/DemoApplication.php	/^			$msg = 'File received. Saved: ' . $this->_filename;$/;"	v
+mtag	client/lib/coffeescript/classes/rewriter.php	/^      $mtag = $match[0];$/;"	v
+multident	client/lib/coffeescript/classes/nodes.php	/^function multident($code, $tab)$/;"	f
+na	client/js/jquery.min.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+name	client/lib/coffeescript/classes/helpers.php	/^    $name = func_get_args();$/;"	v
+name	client/lib/coffeescript/classes/helpers.php	/^  $name = 'CoffeeScript\\Parser::YY_'.(isset($map[$name]) ? $map[$name] : $name);$/;"	v
+name	client/lib/coffeescript/classes/nodes/access.php	/^    $name = $this->name->compile($options);$/;"	v
+name	client/lib/coffeescript/classes/nodes/access.php	/^    $this->name = $name;$/;"	v
+name	client/lib/coffeescript/classes/nodes/assign.php	/^    $name = $this->variable->compile($options);$/;"	v
+name	client/lib/coffeescript/classes/nodes/assign.php	/^    $name = $this->variable->compile($options, LEVEL_LIST);$/;"	v
+name	client/lib/coffeescript/classes/nodes/base.php	/^      $name = get_class($this);$/;"	v
+name	client/lib/coffeescript/classes/nodes/call.php	/^    $name = $method->name;$/;"	v
+name	client/lib/coffeescript/classes/nodes/class.php	/^      $name = $decl;$/;"	v
+name	client/lib/coffeescript/classes/nodes/class.php	/^      $name = $this->name;$/;"	v
+name	client/lib/coffeescript/classes/nodes/class.php	/^      $name = '_Class';$/;"	v
+name	client/lib/coffeescript/classes/nodes/for.php	/^      $name = $ivar;$/;"	v
+name	client/lib/coffeescript/classes/nodes/for.php	/^      $this->name = $this->index;$/;"	v
+name	client/lib/coffeescript/classes/nodes/for.php	/^    $name = $this->name ? $this->name->compile($options, LEVEL_LIST) : FALSE;$/;"	v
+name	client/lib/coffeescript/classes/nodes/for.php	/^    $this->name = isset($source['name']) ? $source['name'] : NULL;$/;"	v
+name	client/lib/coffeescript/classes/nodes/param.php	/^    $this->name = $name;$/;"	v
+name	client/lib/coffeescript/classes/nodes/splat.php	/^      $this->name = $name;$/;"	v
+name	client/lib/coffeescript/classes/nodes/splat.php	/^      $this->name = yy('Literal', $name);$/;"	v
+name	client/lib/coffeescript/classes/nodes/value.php	/^      $name = yy('Index', yy('Assign', $nref, $name->index));$/;"	v
+name	client/lib/coffeescript/classes/nodes/value.php	/^    $name = last($this->properties);$/;"	v
+name_part	client/lib/coffeescript/classes/nodes/for.php	/^        $name_part = "{$name} = {$svar}[{$ivar}]";$/;"	v
+namespace	server/lib/SplClassLoader.php	/^                $namespace = substr($className, 0, $lastNsPos);$/;"	v
+namespace	server/lib/SplClassLoader.php	/^            $namespace = '';$/;"	v
+namespaced	client/lib/coffeescript/classes/nodes/base.php	/^  public $namespaced = FALSE;$/;"	v
+negated	client/lib/coffeescript/classes/nodes/base.php	/^  public $negated = FALSE;$/;"	v
+negated	client/lib/coffeescript/classes/nodes/existence.php	/^    $this->negated = ! $this->negated;$/;"	v
+negated	client/lib/coffeescript/classes/nodes/in.php	/^    $this->negated = ! $this->negated;$/;"	v
+nested	client/lib/coffeescript/classes/lexer.php	/^        $nested = $lexer->tokenize();$/;"	v
+new_instance	client/lib/coffeescript/classes/nodes/call.php	/^  function new_instance()$/;"	f
+newline_token	client/lib/coffeescript/classes/lexer.php	/^  function newline_token()$/;"	f
+next	client/lib/coffeescript/classes/rewriter.php	/^      $next = isset($tokens[$i + 1]) ? $tokens[$i + 1] : NULL;$/;"	v
+nextstate	client/lib/coffeescript/classes/parser.php	/^                    $nextstate = $this->yy_find_reduce_action($/;"	v
+no_call	client/lib/coffeescript/classes/rewriter.php	/^        $no_call = FALSE;$/;"	v
+no_call	client/lib/coffeescript/classes/rewriter.php	/^        $no_call = TRUE;$/;"	v
+no_call	client/lib/coffeescript/classes/rewriter.php	/^    $no_call = FALSE;$/;"	v
+no_newlines	client/lib/coffeescript/classes/lexer.php	/^    $no_newlines = $this->unfinished();$/;"	v
+no_return	client/lib/coffeescript/classes/nodes/base.php	/^  public $no_return = FALSE;$/;"	v
+node	client/lib/coffeescript/classes/nodes/base.php	/^      $node = $this;$/;"	v
+node	client/lib/coffeescript/classes/nodes/base.php	/^    $node = $this;$/;"	v
+node	client/lib/coffeescript/classes/nodes/block.php	/^      $node = $node->unwrap_all();$/;"	v
+node	client/lib/coffeescript/classes/nodes/block.php	/^      $node = ($tmp = $node->unfold_soak($options)) ? $tmp : $node;$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^        $node = yy('Literal', '_'.$node->value);$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^      $node = $node->properties[0]->name;$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^      $node = yy('Literal', $options['scope']->free_variable('arg'));$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^      $node = yy('Splat', $node);$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^    $node = $this->name;$/;"	v
+node	client/lib/coffeescript/classes/nodes/param.php	/^    $node = yy('Value', $node);$/;"	v
+nodes	client/lib/coffeescript/classes/nodes.php	/^$nodes = array($/;"	v
+nodes	client/lib/coffeescript/classes/nodes/block.php	/^      $nodes = array($nodes);$/;"	v
+nodes	client/lib/coffeescript/classes/nodes/call.php	/^    $nodes = array();$/;"	v
+nref	client/lib/coffeescript/classes/nodes/value.php	/^      $nref = yy('Index', $nref);$/;"	v
+nref	client/lib/coffeescript/classes/nodes/value.php	/^      $nref = yy('Literal', $options['scope']->free_variable('name'));$/;"	v
+number_token	client/lib/coffeescript/classes/lexer.php	/^  function number_token()$/;"	f
+oa	client/js/jquery.min.js	/^e(a[0],b):w}function J(){return(new Date).getTime()}function Y(){return false}function Z(){return true}function na(a,b,d){d[0].type=a;return c.event.handle.apply(b,d)}function oa(a){var b,d=[],f=[],e=arguments,j,i,o,k,n,r;i=c.data(this,"events");if(!(a.liveFired===this||!i||!i.live||a.button&&a.type==="click")){a.liveFired=this;var u=i.live.slice(0);for(k=0;k<u.length;k++){i=u[k];i.origType.replace(O,"")===a.type?f.push(i.selector):u.splice(k--,1)}j=c(a.target).closest(f,a.currentTarget);n=0;for(r=$/;"	f
+obj	client/lib/coffeescript/classes/nodes/assign.php	/^          $obj = $obj->name->compile($options);$/;"	v
+obj	client/lib/coffeescript/classes/nodes/assign.php	/^          $obj = $obj->value;$/;"	v
+obj	client/lib/coffeescript/classes/nodes/assign.php	/^        $obj = $obj->value;$/;"	v
+obj	client/lib/coffeescript/classes/nodes/call.php	/^          $obj = NULL;$/;"	v
+obj	client/lib/coffeescript/classes/nodes/call.php	/^      $obj = $tmp = NULL;$/;"	v
+obj	client/lib/coffeescript/classes/nodes/obj.php	/^    $obj = '{'.($props ? "\\n{$props}\\n{$this->tab}" : '').'}';$/;"	v
+object	client/lib/coffeescript/classes/nodes/for.php	/^    $this->object = (isset($source['object']) && $source['object']);$/;"	v
+object	client/lib/coffeescript/classes/nodes/in.php	/^    $this->object = $object;$/;"	v
+objects	client/lib/coffeescript/classes/nodes/arr.php	/^    $this->objects = $objs ? $objs : array();$/;"	v
+objects	client/lib/coffeescript/classes/nodes/assign.php	/^    $objects = $this->variable->base->objects;$/;"	v
+objects	client/lib/coffeescript/classes/nodes/obj.php	/^    $this->objects = $this->properties;$/;"	v
+objs	client/lib/coffeescript/classes/nodes/arr.php	/^    $objs = $this->filter_implicit_objects($this->objects);$/;"	v
+offset	client/lib/coffeescript/classes/lexer.php	/^        $offset = strlen($match[0][0]) + $match[0][1];$/;"	v
+offset	client/lib/coffeescript/classes/lexer.php	/^      $offset = 0;$/;"	v
+offset	client/lib/coffeescript/classes/parser.php	/^            $offset = count($this->metadata);$/;"	v
+offsetExists	client/lib/coffeescript/classes/parser.php	/^    function offsetExists($offset)$/;"	f
+offsetGet	client/lib/coffeescript/classes/parser.php	/^    function offsetGet($offset)$/;"	f
+offsetSet	client/lib/coffeescript/classes/parser.php	/^    function offsetSet($offset, $value)$/;"	f
+offsetUnset	client/lib/coffeescript/classes/parser.php	/^    function offsetUnset($offset)$/;"	f
+onBinaryData	server/lib/WebSocket/Application/DemoApplication.php	/^	public function onBinaryData($data, $client)$/;"	f
+onConnect	server/lib/WebSocket/Application/DemoApplication.php	/^	public function onConnect($client)$/;"	f
+onConnect	server/lib/WebSocket/Application/StatusApplication.php	/^	public function onConnect($client)$/;"	f
+onData	server/lib/WebSocket/Application/DemoApplication.php	/^    public function onData($data, $client)$/;"	f
+onData	server/lib/WebSocket/Application/StatusApplication.php	/^    public function onData($data, $client)$/;"	f
+onData	server/lib/WebSocket/Connection.php	/^	public function onData($data)$/;"	f
+onDisconnect	server/lib/WebSocket/Application/DemoApplication.php	/^    public function onDisconnect($client)$/;"	f
+onDisconnect	server/lib/WebSocket/Application/StatusApplication.php	/^    public function onDisconnect($client)$/;"	f
+onDisconnect	server/lib/WebSocket/Connection.php	/^	public function onDisconnect()$/;"	f
+opcode	client/lib/class.websocket_client.php	/^		$opcode = bindec(substr($firstByteBinary, 4, 4));$/;"	v
+opcode	server/lib/WebSocket/Connection.php	/^		$opcode = bindec(substr($firstByteBinary, 4, 4));$/;"	v
+open_line	client/lib/coffeescript/classes/rewriter.php	/^    $open_line = array();$/;"	v
+operator	client/lib/coffeescript/classes/nodes/op.php	/^      $this->operator = $op;$/;"	v
+operator	client/lib/coffeescript/classes/nodes/op.php	/^    $this->operator = isset(self::$CONVERSIONS[$op]) ? self::$CONVERSIONS[$op] : $op;$/;"	v
+operator	client/lib/coffeescript/classes/nodes/op.php	/^  public $operator = NULL;$/;"	v
+oppos	client/lib/coffeescript/classes/rewriter.php	/^      $oppos = $inverses[$mtag];$/;"	v
+options	client/lib/coffeescript/classes/lexer.php	/^    $options = array_merge(array($/;"	v
+options	client/lib/coffeescript/classes/lexer.php	/^    $this->options  = $options;$/;"	v
+options	client/lib/coffeescript/classes/nodes/block.php	/^    $options = array_merge($options, array('level' => LEVEL_TOP));$/;"	v
+options	client/lib/coffeescript/classes/nodes/range.php	/^    $options = array_merge($options, array('top' => TRUE));$/;"	v
+origin	server/lib/WebSocket/Connection.php	/^			$origin = (isset($headers['Origin'])) ? $headers['Origin'] : $origin;$/;"	v
+origin	server/lib/WebSocket/Connection.php	/^			$origin = (isset($headers['Sec-WebSocket-Origin'])) ? $headers['Sec-WebSocket-Origin'] : false;$/;"	v
+original	client/lib/coffeescript/classes/rewriter.php	/^      $original = & $token;$/;"	v
+otherwise	client/lib/coffeescript/classes/nodes/switch.php	/^    $this->otherwise = $otherwise;$/;"	v
+outdebt	client/lib/coffeescript/classes/lexer.php	/^        $this->outdebt = 0;$/;"	v
+outdebt	client/lib/coffeescript/classes/lexer.php	/^      $this->outdebt = $this->indebt = 0;$/;"	v
+outdebt	client/lib/coffeescript/classes/lexer.php	/^    $this->outdebt  = 0;$/;"	v
+outdent_token	client/lib/coffeescript/classes/lexer.php	/^  function outdent_token($move_out, $no_newlines = FALSE, $close = NULL)$/;"	f
+own	client/lib/coffeescript/classes/nodes/for.php	/^    $this->own = (isset($source['own']) && $source['own']);$/;"	v
+param	client/lib/coffeescript/classes/nodes/assign.php	/^    $this->param = $options ? $options['param'] : NULL;$/;"	v
+parameter	client/lib/coffeescript/classes/scope.php	/^  function parameter($name)$/;"	f
+params	client/lib/coffeescript/classes/nodes/code.php	/^        $params = array();$/;"	v
+params	client/lib/coffeescript/classes/nodes/code.php	/^    $this->params = $params ? $params : array();$/;"	v
+parent	client/lib/coffeescript/classes/nodes/class.php	/^    $this->parent = $parent;$/;"	v
+parent	client/lib/coffeescript/classes/nodes/extends.php	/^    $this->parent = $parent;$/;"	v
+parent	client/lib/coffeescript/classes/scope.php	/^    $this->parent = $parent;$/;"	v
+parse	client/lib/coffeescript/classes/parser.php	/^    function parse($token)$/;"	f
+parser	client/lib/coffeescript/coffeescript.php	/^  $parser = new Parser();$/;"	v
+parts	client/lib/coffeescript/classes/nodes/op.php	/^      $parts = array_reverse($parts);$/;"	v
+parts	client/lib/coffeescript/classes/nodes/op.php	/^    $parts = array($op = $this->operator);$/;"	v
+parts	client/lib/coffeescript/classes/nodes/range.php	/^    $parts = array();$/;"	v
+path	client/lib/coffeescript/class.jstocoffee.php	/^				$path = $path . '\/';$/;"	v
+path	server/lib/WebSocket/Connection.php	/^		$path = $matches[1];$/;"	v
+pattern	client/lib/coffeescript/classes/nodes/for.php	/^    $this->pattern = $this->name instanceof yy_Value;$/;"	v
+payload	client/test_server.php	/^$payload = json_encode(array($/;"	v
+payload	server/lib/WebSocket/Application/Application.php	/^		$payload = array($/;"	v
+payload	server/lib/WebSocket/Connection.php	/^		$payload = implode('', $payload);$/;"	v
+payload	server/lib/WebSocket/Connection.php	/^		$payload = str_split(sprintf('%016b', $statusCode), 8);$/;"	v
+payloadLength	client/lib/class.websocket_client.php	/^		$payloadLength = '';$/;"	v
+payloadLength	client/lib/class.websocket_client.php	/^		$payloadLength = ord($data[1]) & 127;		$/;"	v
+payloadLength	client/lib/class.websocket_client.php	/^		$payloadLength = strlen($payload);$/;"	v
+payloadLength	server/lib/WebSocket/Connection.php	/^		$payloadLength = '';$/;"	v
+payloadLength	server/lib/WebSocket/Connection.php	/^		$payloadLength = ord($data[1]) & 127;$/;"	v
+payloadLength	server/lib/WebSocket/Connection.php	/^		$payloadLength = strlen($payload);$/;"	v
+payloadLengthBin	client/lib/class.websocket_client.php	/^			$payloadLengthBin = str_split(sprintf('%016b', $payloadLength), 8);$/;"	v
+payloadLengthBin	client/lib/class.websocket_client.php	/^			$payloadLengthBin = str_split(sprintf('%064b', $payloadLength), 8);$/;"	v
+payloadLengthBin	server/lib/WebSocket/Connection.php	/^			$payloadLengthBin = str_split(sprintf('%016b', $payloadLength), 8);$/;"	v
+payloadLengthBin	server/lib/WebSocket/Connection.php	/^			$payloadLengthBin = str_split(sprintf('%064b', $payloadLength), 8);$/;"	v
+payloadOffset	client/lib/class.websocket_client.php	/^			$payloadOffset = $payloadOffset - 4;$/;"	v
+payloadOffset	client/lib/class.websocket_client.php	/^			$payloadOffset = 14;$/;"	v
+payloadOffset	client/lib/class.websocket_client.php	/^			$payloadOffset = 6;$/;"	v
+payloadOffset	client/lib/class.websocket_client.php	/^		   $payloadOffset = 8;$/;"	v
+payloadOffset	server/lib/WebSocket/Connection.php	/^			$payloadOffset = $payloadOffset - 4;$/;"	v
+payloadOffset	server/lib/WebSocket/Connection.php	/^			$payloadOffset = 14;$/;"	v
+payloadOffset	server/lib/WebSocket/Connection.php	/^			$payloadOffset = 6;$/;"	v
+payloadOffset	server/lib/WebSocket/Connection.php	/^		   $payloadOffset = 8;$/;"	v
+pem	server/lib/WebSocket/Socket.php	/^			$pem = array();$/;"	v
+pem	server/lib/WebSocket/Socket.php	/^			$pem = implode($pem);		$/;"	v
+pem_file	server/lib/WebSocket/Socket.php	/^		$pem_file = '.\/server.pem';$/;"	v
+pem_passphrase	server/lib/WebSocket/Socket.php	/^		$pem_passphrase = 'shinywss';		$/;"	v
+pi	client/lib/coffeescript/classes/lexer.php	/^      $pi = $i + 1;$/;"	v
+pi	client/lib/coffeescript/classes/lexer.php	/^    $pi = 0;$/;"	v
+pluck_direct_call	client/lib/coffeescript/classes/nodes/for.php	/^  function pluck_direct_call($options, $body)$/;"	f
+pop	client/lib/coffeescript/classes/nodes/block.php	/^  function pop()$/;"	f
+port	server/lib/WebSocket/Connection.php	/^		$this->port = $tmp[1];		$/;"	v
+port	server/lib/WebSocket/Connection.php	/^	private $port;$/;"	v
+positions	client/lib/coffeescript/classes/scope.php	/^    $this->positions = array();$/;"	v
+post	client/lib/coffeescript/classes/nodes/block.php	/^    $post = $this->compile_node($options);$/;"	v
+post	client/lib/coffeescript/classes/nodes/range.php	/^    $post = "{ {$result}.push({$i}); }\\n{$idt}return {$result};\\n{$options['indent']}";$/;"	v
+pre	client/lib/coffeescript/classes/nodes/range.php	/^    $pre = "\\n{$idt}{$result} = [];";$/;"	v
+pred	client/lib/coffeescript/classes/nodes/base.php	/^      $pred = function($node) use ($tmp)$/;"	v
+prev	client/lib/coffeescript/classes/lexer.php	/^      $prev = $letter;$/;"	v
+prev	client/lib/coffeescript/classes/lexer.php	/^    $prev = & last($this->tokens);$/;"	v
+prev	client/lib/coffeescript/classes/lexer.php	/^    $prev = NULL;$/;"	v
+prev	client/lib/coffeescript/classes/lexer.php	/^    $prev = last($this->tokens);$/;"	v
+prev	client/lib/coffeescript/classes/rewriter.php	/^        $prev = & $tokens[$i - 1];$/;"	v
+prev	client/lib/coffeescript/classes/rewriter.php	/^      $prev = NULL;$/;"	v
+privkey	server/lib/WebSocket/Socket.php	/^			$privkey = openssl_pkey_new();$/;"	v
+prop	client/lib/coffeescript/classes/nodes/obj.php	/^          $prop = yy('Assign', $prop, $prop, 'object');$/;"	v
+prop	client/lib/coffeescript/classes/nodes/obj.php	/^        $prop = yy('Assign', $prop->properties[0]->name, $prop, 'object');$/;"	v
+properties	client/lib/coffeescript/classes/nodes/obj.php	/^    $this->properties = $props ? $props : array();$/;"	v
+properties	client/lib/coffeescript/classes/nodes/value.php	/^    $this->properties = $props ? $props : array();$/;"	v
+props	client/lib/coffeescript/classes/nodes/class.php	/^    $props = array_slice($node->base->properties, 0);$/;"	v
+props	client/lib/coffeescript/classes/nodes/obj.php	/^    $props = $this->properties;$/;"	v
+props	client/lib/coffeescript/classes/nodes/obj.php	/^    $props = implode('', $props);$/;"	v
+props	client/lib/coffeescript/classes/nodes/value.php	/^    $props = $this->properties;$/;"	v
+proto	client/lib/coffeescript/classes/nodes/access.php	/^    $this->proto = $tag === 'proto' ? '.prototype' : '';$/;"	v
+proto	client/lib/coffeescript/classes/nodes/base.php	/^  public $proto = FALSE;$/;"	v
+protocol	server/lib/WebSocket/Socket.php	/^		$protocol = ($this->ssl === true) ? 'tls:\/\/' : 'tcp:\/\/';$/;"	v
+push	client/lib/coffeescript/classes/nodes/block.php	/^  function push($node)$/;"	f
+push	client/lib/coffeescript/classes/nodes/value.php	/^  function push($prop)$/;"	f
+putfileResult	server/lib/WebSocket/Application/DemoApplication.php	/^			$putfileResult = file_put_contents($filePath.$this->_filename, $data);			$/;"	v
+putfileResult	server/lib/WebSocket/Application/DemoApplication.php	/^		$putfileResult = false;$/;"	v
+qa.K	client/js/jquery.min.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f
+qa.ra	client/js/jquery.min.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+qa.sa	client/js/jquery.min.js	/^"&")}function qa(a){return!a||!a.parentNode||a.parentNode.nodeType===11}function ra(a,b){var d=0;b.each(function(){if(this.nodeName===(a[d]&&a[d].nodeName)){var f=c.data(a[d++]),e=c.data(this,f);if(f=f&&f.events){delete e.handle;e.events={};for(var j in f)for(var i in f[j])c.event.add(this,j,f[j][i],f[j][i].data)}}})}function sa(a,b,d){var f,e,j;b=b&&b[0]?b[0].ownerDocument||b[0]:s;if(a.length===1&&typeof a[0]==="string"&&a[0].length<512&&b===s&&!ta.test(a[0])&&(c.support.checkClone||!ua.test(a[0]))){e=$/;"	f
+qa.wa	client/js/jquery.min.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f
+quote	client/js/json2.js	/^    function quote(string) {$/;"	f
+quote	client/lib/coffeescript/classes/lexer.php	/^    $quote = $heredoc{0};$/;"	v
+randomString	client/lib/class.websocket_client.php	/^		$randomString = substr($randomString, 0, $length);$/;"	v
+randomString	client/lib/class.websocket_client.php	/^		$randomString = trim(implode('', $useChars));$/;"	v
+range	client/lib/coffeescript/classes/nodes/for.php	/^    $this->range = $this->source instanceof yy_Value && $this->source->base instanceof yy_Range &&$/;"	v
+range	client/lib/coffeescript/classes/nodes/range.php	/^      $range = range($this->from_num, $this->to_num);$/;"	v
+range	client/lib/coffeescript/classes/nodes/slice.php	/^    $this->range = $range;$/;"	v
+re	client/lib/coffeescript/classes/lexer.php	/^      $re = preg_replace('\/\\\/\/', '\\\\\/', $re);$/;"	v
+re	client/lib/coffeescript/classes/lexer.php	/^      $re = preg_replace(self::$HEREGEX_OMIT, '', $body);$/;"	v
+readBuffer	server/lib/WebSocket/Socket.php	/^	protected function readBuffer($resource)$/;"	f
+real_vars	client/lib/coffeescript/classes/scope.php	/^    $real_vars = array();$/;"	v
+reconnect	client/lib/class.websocket_client.php	/^	public function reconnect()$/;"	f
+recovery	client/lib/coffeescript/classes/nodes/try.php	/^      $this->recovery = $this->recovery->make_return();$/;"	v
+recovery	client/lib/coffeescript/classes/nodes/try.php	/^    $this->recovery = $recovery;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/base.php	/^      $ref = $level ? $this->compile($options, $level) : $this;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/base.php	/^      $ref = yy('Literal', $reused ? $reused : $options['scope']->free_variable('ref'));$/;"	v
+ref	client/lib/coffeescript/classes/nodes/call.php	/^        $ref = $fun;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/call.php	/^        $ref = NULL;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/call.php	/^      $ref = $options['scope']->free_variable('ref');$/;"	v
+ref	client/lib/coffeescript/classes/nodes/code.php	/^        $ref = $param;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/for.php	/^        $ref = $scope->free_variable('ref');$/;"	v
+ref	client/lib/coffeescript/classes/nodes/for.php	/^      $ref = yy('Literal', $options['scope']->free_variable('fn'));$/;"	v
+ref	client/lib/coffeescript/classes/nodes/op.php	/^      $ref = $fst;$/;"	v
+ref	client/lib/coffeescript/classes/nodes/op.php	/^      $ref = yy('Literal', $options['scope']->free_variable('ref'));$/;"	v
+ref	client/lib/coffeescript/classes/nodes/value.php	/^            $ref = yy('Literal', $options['scope']->free_variable('ref'));$/;"	v
+regex	client/lib/coffeescript/classes/lexer.php	/^    $regex = $match[0];$/;"	v
+regex_token	client/lib/coffeescript/classes/lexer.php	/^  function regex_token()$/;"	f
+register	server/lib/SplClassLoader.php	/^    public function register()$/;"	f
+registerApplication	server/lib/WebSocket/Server.php	/^    public function registerApplication($key, $application)$/;"	f
+removeClientOnClose	server/lib/WebSocket/Server.php	/^	public function removeClientOnClose($client)$/;"	f
+removeClientOnError	server/lib/WebSocket/Server.php	/^	public function removeClientOnError($client)$/;"	f
+remove_leading_newlines	client/lib/coffeescript/classes/rewriter.php	/^  function remove_leading_newlines()$/;"	f
+remove_mid_expression_newlines	client/lib/coffeescript/classes/rewriter.php	/^  function remove_mid_expression_newlines()$/;"	f
+res	client/lib/class.websocket_client.php	/^		$res = @fwrite($this->_Socket, $this->_hybi10Encode($data, $type, $masked));		$/;"	v
+reserved	client/lib/coffeescript/classes/lexer.php	/^    $reserved = FALSE;$/;"	v
+resource	server/lib/WebSocket/Server.php	/^		$resource = $client->getClientSocket();$/;"	v
+response	client/lib/class.websocket_client.php	/^		$response = $this->_hybi10Decode($response);$/;"	v
+response	client/lib/class.websocket_client.php	/^		$response = @fread($this->_Socket, 1500);		$/;"	v
+response	client/lib/class.websocket_client.php	/^		$response = @fread($this->_Socket, 300);$/;"	v
+response	server/lib/WebSocket/Connection.php	/^		$response = "HTTP\/1.1 101 Switching Protocols\\r\\n";$/;"	v
+rest	client/lib/coffeescript/classes/nodes/block.php	/^      $rest = array_splice($this->expressions, $i, count($this->expressions));$/;"	v
+result	client/lib/coffeescript/classes/nodes/range.php	/^    $result = $options['scope']->free_variable('result');$/;"	v
+result	client/lib/coffeescript/classes/nodes/value.php	/^          $result = yy('If', yy('Existence', $fst), $snd, array('soak' => TRUE));$/;"	v
+result	client/lib/coffeescript/classes/nodes/value.php	/^      $result = $ifn;$/;"	v
+result	client/lib/coffeescript/classes/nodes/value.php	/^    $result = NULL;$/;"	v
+result	server/lib/WebSocket/Socket.php	/^				$result = fread($resource, $buffsize);				$/;"	v
+result_part	client/lib/coffeescript/classes/nodes/for.php	/^      $result_part = "{$this->tab}{$rvar} = [];\\n";$/;"	v
+ret	client/lib/coffeescript/classes/nodes/if.php	/^    $ret = $if_part.' else ';$/;"	v
+return_result	client/lib/coffeescript/classes/nodes/for.php	/^      $return_result = "\\n{$this->tab}return {$rvar};";$/;"	v
+returns	client/lib/coffeescript/classes/nodes/for.php	/^      $this->returns = FALSE;$/;"	v
+returns	client/lib/coffeescript/classes/nodes/for.php	/^    $this->returns = FALSE;$/;"	v
+returns	client/lib/coffeescript/classes/nodes/for.php	/^    $this->returns = TRUE;$/;"	v
+returns	client/lib/coffeescript/classes/nodes/while.php	/^    $this->returns = TRUE;$/;"	v
+returns	client/lib/coffeescript/classes/nodes/while.php	/^  public $returns = FALSE;$/;"	v
+rewrite	client/lib/coffeescript/classes/rewriter.php	/^  function rewrite()$/;"	f
+rewrite_closing_parens	client/lib/coffeescript/classes/rewriter.php	/^  function rewrite_closing_parens()$/;"	f
+rewriter	client/lib/coffeescript/classes/lexer.php	/^      $rewriter = new Rewriter($this->tokens);$/;"	v
+rite	client/lib/coffeescript/classes/nodes/call.php	/^        $rite = yy('Value', $left);$/;"	v
+rite	client/lib/coffeescript/classes/nodes/call.php	/^      $rite = yy('Call', $rite, $this->args);$/;"	v
+root	client/lib/coffeescript/classes/scope.php	/^  static $root = NULL;$/;"	v
+run	server/lib/WebSocket/Server.php	/^	public function run()$/;"	f
+rvar	client/lib/coffeescript/classes/nodes/for.php	/^      $rvar = $scope->free_variable('results');$/;"	v
+rvar	client/lib/coffeescript/classes/nodes/while.php	/^        $rvar = $options['scope']->free_variable('results');$/;"	v
+sanitize_heredoc	client/lib/coffeescript/classes/lexer.php	/^  function sanitize_heredoc($doc, array $options)$/;"	f
+scan_tokens	client/lib/coffeescript/classes/rewriter.php	/^  function scan_tokens($block)$/;"	f
+scope	client/lib/coffeescript/classes/nodes/block.php	/^    $scope = $options['scope'];$/;"	v
+scope	client/lib/coffeescript/classes/nodes/for.php	/^    $scope = $options['scope'];$/;"	v
+secAccept	server/lib/WebSocket/Connection.php	/^		$secAccept = base64_encode(pack('H*', sha1($secKey . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11')));$/;"	v
+secKey	server/lib/WebSocket/Connection.php	/^		$secKey = $headers['Sec-WebSocket-Key'];$/;"	v
+second	client/lib/coffeescript/classes/nodes/op.php	/^    $this->second = $second;$/;"	v
+secondByteBinary	client/lib/class.websocket_client.php	/^		$secondByteBinary = sprintf('%08b', ord($data[1]));$/;"	v
+secondByteBinary	server/lib/WebSocket/Connection.php	/^		$secondByteBinary = sprintf('%08b', ord($data[1]));$/;"	v
+seen_control	client/lib/coffeescript/classes/rewriter.php	/^          $seen_control = TRUE;$/;"	v
+seen_control	client/lib/coffeescript/classes/rewriter.php	/^      $seen_control = FALSE;$/;"	v
+seen_for	client/lib/coffeescript/classes/lexer.php	/^          $this->seen_for = FALSE;$/;"	v
+seen_for	client/lib/coffeescript/classes/lexer.php	/^        $this->seen_for = TRUE;$/;"	v
+seen_single	client/lib/coffeescript/classes/rewriter.php	/^          $seen_single = TRUE;$/;"	v
+seen_single	client/lib/coffeescript/classes/rewriter.php	/^      $seen_single = FALSE;$/;"	v
+self	client/lib/coffeescript/classes/nodes/class.php	/^    $self = $this;$/;"	v
+self	client/lib/coffeescript/classes/rewriter.php	/^    $self = $this;$/;"	v
+send	server/lib/WebSocket/Connection.php	/^    public function send($payload, $type = 'text', $masked = false)$/;"	f
+sendData	client/lib/class.websocket_client.php	/^	public function sendData($data, $type = 'text', $masked = true)$/;"	f
+sendHttpResponse	server/lib/WebSocket/Connection.php	/^	public function sendHttpResponse($httpStatusCode = 400)$/;"	f
+server	server/lib/WebSocket/Connection.php	/^		$this->server = $server;$/;"	v
+server	server/lib/WebSocket/Connection.php	/^    private $server;$/;"	v
+server	server/server.php	/^$server = new \\WebSocket\\Server('127.0.0.1', 8000, false);$/;"	v
+serverInfo	server/lib/WebSocket/Server.php	/^			$serverInfo = array($/;"	v
+set	client/lib/coffeescript/classes/nodes/while.php	/^        $set = "{$this->tab}{$rvar} = [];\\n";$/;"	v
+set	client/lib/coffeescript/classes/nodes/while.php	/^    $set = '';$/;"	v
+setAllowedCoffeeDir	client/lib/coffeescript/class.jstocoffee.php	/^	public function setAllowedCoffeeDir($path)$/;"	f
+setAllowedOrigin	server/lib/WebSocket/Server.php	/^	public function setAllowedOrigin($domain)$/;"	f
+setCacheDir	client/lib/coffeescript/class.jstocoffee.php	/^	public function setCacheDir($path)$/;"	f
+setCheckOrigin	server/lib/WebSocket/Server.php	/^	public function setCheckOrigin($doOriginCheck)$/;"	f
+setFileExtension	server/lib/SplClassLoader.php	/^    public function setFileExtension($fileExtension)$/;"	f
+setIncludePath	server/lib/SplClassLoader.php	/^    public function setIncludePath($includePath)$/;"	f
+setMaxClients	server/lib/WebSocket/Server.php	/^	public function setMaxClients($max)$/;"	f
+setMaxConnectionsPerIp	server/lib/WebSocket/Server.php	/^	public function setMaxConnectionsPerIp($limit)$/;"	f
+setMaxRequestsPerMinute	server/lib/WebSocket/Server.php	/^	public function setMaxRequestsPerMinute($limit)$/;"	f
+setNamespaceSeparator	server/lib/SplClassLoader.php	/^    public function setNamespaceSeparator($sep)$/;"	f
+setServerInfo	server/lib/WebSocket/Application/StatusApplication.php	/^	public function setServerInfo($serverInfo)$/;"	f
+set_context	client/lib/coffeescript/classes/nodes/class.php	/^  function set_context($name)$/;"	f
+shared	client/lib/coffeescript/classes/nodes/op.php	/^    $shared = $tmp[1];$/;"	v
+shared	client/lib/coffeescript/classes/scope.php	/^  public $shared = FALSE;$/;"	v
+size	client/lib/coffeescript/classes/lexer.php	/^    $size = strlen($indent) - 1 - strrpos($indent, "\\n");$/;"	v
+snd	client/lib/coffeescript/classes/nodes/value.php	/^          $snd = yy('Value', $this->base, array_slice($this->properties, $i));$/;"	v
+soak	client/lib/coffeescript/classes/nodes/access.php	/^    $this->soak = $tag === 'soak';$/;"	v
+soak	client/lib/coffeescript/classes/nodes/base.php	/^  public $soak = FALSE;$/;"	v
+soak	client/lib/coffeescript/classes/nodes/if.php	/^    $this->soak = isset($options['soak']) ? $options['soak'] : NULL;$/;"	v
+socket	server/lib/WebSocket/Connection.php	/^		$this->socket = $socket;$/;"	v
+socket	server/lib/WebSocket/Connection.php	/^    private $socket;$/;"	v
+socketName	server/lib/WebSocket/Connection.php	/^		$socketName = stream_socket_get_name($socket, true);$/;"	v
+source	client/lib/coffeescript/classes/nodes/for.php	/^      $source = $this->source->base;$/;"	v
+source	client/lib/coffeescript/classes/nodes/for.php	/^      $source = $this->source;$/;"	v
+source	client/lib/coffeescript/classes/nodes/for.php	/^    $this->source = $source['source'];$/;"	v
+splat	client/lib/coffeescript/classes/nodes/assign.php	/^        $splat = "{$ivar}++";$/;"	v
+splat	client/lib/coffeescript/classes/nodes/assign.php	/^    $splat = FALSE;$/;"	v
+splat	client/lib/coffeescript/classes/nodes/param.php	/^    $this->splat = $splat;$/;"	v
+splats	client/lib/coffeescript/classes/nodes/code.php	/^        $splats = yy('Assign', yy('Value', yy('Arr', $params)), yy('Value', yy('Literal', 'arguments')));$/;"	v
+src	client/lib/coffeescript/classes/nodes/base.php	/^      $src = ($tmp = $options['scope']->free_variable($name)).' = '.$src;$/;"	v
+src	client/lib/coffeescript/classes/nodes/base.php	/^    $src = $tmp = $this->compile($options, LEVEL_LIST);$/;"	v
+ssl	server/lib/WebSocket/Socket.php	/^		$this->ssl = $ssl;$/;"	v
+ssl	server/lib/WebSocket/Socket.php	/^	protected $ssl = false;$/;"	v
+stack	client/lib/coffeescript/classes/lexer.php	/^    $stack = array($end);$/;"	v
+stack	client/lib/coffeescript/classes/lexer.php	/^    $stack = array();$/;"	v
+stack	client/lib/coffeescript/classes/parser.php	/^            $stack = $this->yy_pop_parser_stack();$/;"	v
+stack	client/lib/coffeescript/classes/parser.php	/^        $stack = $this->yystack;$/;"	v
+stack	client/lib/coffeescript/classes/rewriter.php	/^    $stack = array();$/;"	v
+start	client/lib/coffeescript/classes/rewriter.php	/^        $start = array_pop($stack);$/;"	v
+start	client/lib/coffeescript/classes/rewriter.php	/^    $start = NULL;$/;"	v
+start_indent	client/lib/coffeescript/classes/rewriter.php	/^    $start_indent = 0;$/;"	v
+starter	client/lib/coffeescript/classes/rewriter.php	/^        $starter = $tag;$/;"	v
+state	client/lib/coffeescript/classes/parser.php	/^        $state = $this->yystack[$this->yyidx]->stateno;$/;"	v
+stateno	client/lib/coffeescript/classes/parser.php	/^        $stateno = $this->yystack[$this->yyidx]->stateno;$/;"	v
+stateno	client/lib/coffeescript/classes/parser.php	/^    public $stateno;       \/* The state-number *\/$/;"	v
+statusMsg	server/lib/WebSocket/Application/StatusApplication.php	/^	public function statusMsg($text, $type = 'info')$/;"	f
+step	client/lib/coffeescript/classes/nodes/for.php	/^    $this->step = isset($source['step']) ? $source['step'] : NULL;$/;"	v
+step	client/lib/coffeescript/classes/nodes/range.php	/^    $step = del($options, 'step');$/;"	v
+step_part	client/lib/coffeescript/classes/nodes/for.php	/^        $step_part = $this->step ? "{$ivar} += {$stepvar}" : "{$ivar}++";$/;"	v
+step_part	client/lib/coffeescript/classes/nodes/range.php	/^      $step_part = "{$idx} += {$stepvar}";$/;"	v
+step_part	client/lib/coffeescript/classes/nodes/range.php	/^      $step_part = $from <= $to ? "{$idx}++" : "{$idx}--";$/;"	v
+step_part	client/lib/coffeescript/classes/nodes/range.php	/^    $step_part = $step ? "{$idx} += {$stepvar}" : "{$cond} ? {$idx}++ : {$idx}--";$/;"	v
+stepvar	client/lib/coffeescript/classes/nodes/for.php	/^      $stepvar = $scope->free_variable('step');$/;"	v
+stepvar	client/lib/coffeescript/classes/nodes/range.php	/^      $stepvar = $options['scope']->free_variable('step');$/;"	v
+str	client/js/json2.js	/^    function str(key, holder) {$/;"	f
+string	client/lib/coffeescript/classes/parser.php	/^            $this->string = $s->string;$/;"	v
+string	client/lib/coffeescript/classes/parser.php	/^            $this->string = (string) $s;$/;"	v
+string	client/lib/coffeescript/classes/parser.php	/^    public $string = '';$/;"	v
+stringLength	server/lib/WebSocket/Socket.php	/^		$stringLength = strlen($string);$/;"	v
+string_token	client/lib/coffeescript/classes/lexer.php	/^  function string_token()$/;"	f
+sub	client/lib/coffeescript/classes/nodes/base.php	/^      $sub = yy('Assign', $ref, $this);$/;"	v
+subject	client/lib/coffeescript/classes/nodes/switch.php	/^    $this->subject = $subject;$/;"	v
+super_reference	client/lib/coffeescript/classes/nodes/call.php	/^  function super_reference($options)$/;"	f
+suppress_newlines	client/lib/coffeescript/classes/lexer.php	/^  function suppress_newlines()$/;"	f
+svar	client/lib/coffeescript/classes/nodes/for.php	/^        $svar = $ref;$/;"	v
+svar	client/lib/coffeescript/classes/nodes/for.php	/^      $svar = $this->source->compile($options, LEVEL_LIST);$/;"	v
+sym	client/lib/coffeescript/classes/nodes/existence.php	/^      $sym = $this->negated ? '==' : '!=';$/;"	v
+t	client/lib/coffeescript/classes/helpers.php	/^function t($name)$/;"	f
+t_canonical	client/lib/coffeescript/classes/helpers.php	/^function t_canonical($token)$/;"	f
+tab	client/lib/coffeescript/classes/nodes/block.php	/^    $this->tab = $options['indent'];$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^          $tag = $k;$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^          $tag = 'CALL_START';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^          $tag = 'FOR'.$tag;$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^          $tag = 'INDEX_START';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^          $tag = 'RELATION';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = $k;$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = 'IDENTIFIER';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = 'IF';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = 'LEADING_WHEN';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = 'LOGIC';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^        $tag = 'UNARY';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^      $tag = strtoupper($id);$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^      $tag = t($tag);$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^    $tag = $value;$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^    $tag = 'IDENTIFIER';$/;"	v
+tag	client/lib/coffeescript/classes/lexer.php	/^  function tag($index = 0, $tag = NULL)$/;"	f
+tag	client/lib/coffeescript/classes/rewriter.php	/^        $tag = $token[0];$/;"	v
+tag	client/lib/coffeescript/classes/rewriter.php	/^      $tag = $token[0];$/;"	v
+tag	client/lib/coffeescript/classes/rewriter.php	/^  function tag($i)$/;"	f
+tag_parameters	client/lib/coffeescript/classes/lexer.php	/^  function tag_parameters()$/;"	f
+tag_postfix_conditionals	client/lib/coffeescript/classes/rewriter.php	/^  function tag_postfix_conditionals()$/;"	f
+tags	client/lib/coffeescript/classes/helpers.php	/^    $tags = array();$/;"	v
+temp	client/lib/coffeescript/class.jstocoffee.php	/^		$temp = file_get_contents($this->_cacheDir . 'cache_content');$/;"	v
+temp_vars	client/lib/coffeescript/classes/scope.php	/^    $temp_vars = array();$/;"	v
+temporary	client/lib/coffeescript/classes/scope.php	/^  function temporary($name, $index)$/;"	f
+testClients	client/test_server.php	/^$testClients = 30;$/;"	v
+testMessages	client/test_server.php	/^$testMessages = 500;$/;"	v
+tests	client/lib/coffeescript/classes/nodes/in.php	/^    $tests = array();$/;"	v
+tests	client/lib/coffeescript/classes/nodes/in.php	/^    $tests = implode($cnj, $tests);$/;"	v
+this	client/lib/coffeescript/classes/nodes/base.php	/^  public $this = NULL;$/;"	v
+tmp	client/lib/class.websocket_client.php	/^			$tmp = '';$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^            $tmp = yy('Value', $obj->unwrap_all());$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^          $tmp = yy('Value', $obj->unwrap_all());$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^      $tmp = yy('Assign', $obj, $val, NULL, array('param' => $this->param));$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^      $tmp = yy('Assign', $obj, $value);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^    $tmp = array_pop($this->variable->properties);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/assign.php	/^    $tmp = yy('Op', substr($this->context, 0, -1), $left, yy('Assign', $rite, $this->value, '='));$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/base.php	/^      $tmp = __NAMESPACE__.'\\\\'.$pred;$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/call.php	/^        $tmp = yy('Value', $this->variable);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/call.php	/^    $tmp = array();$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/extends.php	/^    $tmp = yy('Call', yy('Value', yy('Literal', utility('extends'))), $/;"	v
+tmp	client/lib/coffeescript/classes/nodes/for.php	/^      $tmp = $this->name;$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/for.php	/^      $tmp = yy('Assign', $ref, $fn);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/op.php	/^        $tmp = yy('Parens', $this);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/op.php	/^      $tmp = yy('Parens', $this);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/op.php	/^    $tmp = $this->first->second->cache($options);$/;"	v
+tmp	client/lib/coffeescript/classes/nodes/op.php	/^    $tmp = yy('If', yy('Existence', $fst), $ref, array('type' => 'if'));$/;"	v
+tmp	client/lib/coffeescript/classes/scope.php	/^    $tmp = array();$/;"	v
+tmp	server/lib/WebSocket/Connection.php	/^			$tmp = '';$/;"	v
+tmp	server/lib/WebSocket/Connection.php	/^		$tmp = explode(':', $socketName);		$/;"	v
+to	client/lib/coffeescript/classes/nodes/assign.php	/^        $to = $to->compile($options).' - '. $from_ref;$/;"	v
+to	client/lib/coffeescript/classes/nodes/assign.php	/^        $to = intval($to->compile($options)) - intval($from_ref);$/;"	v
+to	client/lib/coffeescript/classes/nodes/assign.php	/^      $to = '9e9';$/;"	v
+to	client/lib/coffeescript/classes/nodes/assign.php	/^    $to = $tmp->range->to;$/;"	v
+to	client/lib/coffeescript/classes/nodes/base.php	/^  public $to = NULL;$/;"	v
+to	client/lib/coffeescript/classes/nodes/range.php	/^    $this->to = $to;$/;"	v
+to	client/lib/coffeescript/classes/nodes/slice.php	/^    $to = $this->range->to;$/;"	v
+to_num	client/lib/coffeescript/classes/nodes/range.php	/^    $this->to_num = isset($to_num[0]) ? $to_num[0] : NULL;$/;"	v
+to_num	client/lib/coffeescript/classes/nodes/range.php	/^  public $to_num = 0;$/;"	v
+to_str	client/lib/coffeescript/classes/nodes/slice.php	/^      $to_str = ', ';$/;"	v
+to_string	client/lib/coffeescript/classes/nodes/base.php	/^  function to_string($idt = '', $name = NULL)$/;"	f
+to_string	client/lib/coffeescript/classes/nodes/in.php	/^  function to_string($idt = '', $name = __CLASS__)$/;"	f
+to_string	client/lib/coffeescript/classes/nodes/literal.php	/^  function to_string($idt = '', $name = __CLASS__)$/;"	f
+to_string	client/lib/coffeescript/classes/nodes/op.php	/^  function to_string($idt = '', $name = __CLASS__)$/;"	f
+tok	client/lib/coffeescript/classes/rewriter.php	/^      $tok = array(t('CALL_END'), ')');$/;"	v
+tok	client/lib/coffeescript/classes/rewriter.php	/^      $tok = array(t('{'), $value, $token[2], 'generated' => TRUE, 'generatedValue' => TRUE);$/;"	v
+tok	client/lib/coffeescript/classes/rewriter.php	/^      $tok = array(t('}'), '}', $token[2], 'generated' => TRUE);$/;"	v
+token	client/lib/coffeescript/classes/helpers.php	/^    $token = substr($token, strlen('CoffeeScript\\Parser::YY_'));$/;"	v
+token	client/lib/coffeescript/classes/helpers.php	/^    $token = substr(Parser::tokenName($token), 3);$/;"	v
+token	client/lib/coffeescript/classes/lexer.php	/^    $token = & last($this->tokens, $index);$/;"	v
+token	client/lib/coffeescript/classes/lexer.php	/^    $token = array($tag, $value, $this->line);$/;"	v
+token	client/lib/coffeescript/classes/lexer.php	/^  function token($tag, $value = NULL, $props = array())$/;"	f
+token	client/lib/coffeescript/classes/rewriter.php	/^      $token = & $tokens[$i];$/;"	v
+tokenName	client/lib/coffeescript/classes/parser.php	/^    static function tokenName($tokenType)$/;"	f
+tokenize	client/lib/coffeescript/classes/lexer.php	/^  function tokenize()$/;"	f
+tokens	client/lib/coffeescript/classes/lexer.php	/^        $this->tokens = array_merge($this->tokens, $value);$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^        $tokens = array_merge($tokens, (array) $value);$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^      $this->tokens = $rewriter->rewrite();$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^    $this->tokens   = array();$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^    $this->tokens = array_merge($this->tokens, $tokens);$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^    $tokens = &$this->tokens;$/;"	v
+tokens	client/lib/coffeescript/classes/lexer.php	/^    $tokens = array();$/;"	v
+tokens	client/lib/coffeescript/classes/rewriter.php	/^    $this->tokens = $tokens;$/;"	v
+tokens	client/lib/coffeescript/classes/rewriter.php	/^    $tokens = & $this->tokens;$/;"	v
+top	client/lib/coffeescript/classes/nodes/assign.php	/^    $top = $options['level'] === LEVEL_TOP;$/;"	v
+top	client/lib/coffeescript/classes/nodes/block.php	/^    $top = $options['level'] === LEVEL_TOP;$/;"	v
+traverse_children	client/lib/coffeescript/classes/nodes/base.php	/^  function traverse_children($cross_scope, $func)$/;"	f
+traverse_children	client/lib/coffeescript/classes/nodes/code.php	/^  function traverse_children($cross_scope, $func)$/;"	f
+tree	client/lib/coffeescript/classes/nodes/base.php	/^    $tree = "\\n{$idt}{$name}";$/;"	v
+type	client/lib/coffeescript/classes/nodes.php	/^  $type = __NAMESPACE__.'\\yy_'.$type;$/;"	v
+type	client/lib/coffeescript/classes/scope.php	/^      $type = $v['type'];$/;"	v
+type	client/lib/coffeescript/classes/scope.php	/^  function type($name)$/;"	f
+types	client/lib/coffeescript/classes/lexer.php	/^      $types = array('identifier', 'comment', 'whitespace', 'line', 'heredoc', $/;"	v
+u2	client/lib/coffeescript/classes/parser.php	/^                            $u2 = 0;$/;"	v
+unfinished	client/lib/coffeescript/classes/lexer.php	/^  function unfinished()$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes.php	/^function unfold_soak($options, $parent, $name)$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/assign.php	/^  function unfold_soak($options)$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/base.php	/^  function unfold_soak($options)$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/call.php	/^  function unfold_soak($options)$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/if.php	/^  function unfold_soak()$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/op.php	/^  function unfold_soak($options)$/;"	f
+unfold_soak	client/lib/coffeescript/classes/nodes/value.php	/^  function unfold_soak($options)$/;"	f
+unfolded_soak	client/lib/coffeescript/classes/nodes/value.php	/^    $this->unfolded_soak = $result ? $result : FALSE;$/;"	v
+unmaskedPayload	client/lib/class.websocket_client.php	/^		$unmaskedPayload = '';$/;"	v
+unmaskedPayload	server/lib/WebSocket/Connection.php	/^		$unmaskedPayload = '';$/;"	v
+unregister	server/lib/SplClassLoader.php	/^    public function unregister()$/;"	f
+unshift	client/lib/coffeescript/classes/nodes/block.php	/^  function unshift($node)$/;"	f
+unwrap	client/lib/coffeescript/classes/nodes/base.php	/^  function unwrap()$/;"	f
+unwrap	client/lib/coffeescript/classes/nodes/block.php	/^  function unwrap()$/;"	f
+unwrap	client/lib/coffeescript/classes/nodes/parens.php	/^  public function unwrap()$/;"	f
+unwrap	client/lib/coffeescript/classes/nodes/value.php	/^  function unwrap()$/;"	f
+unwrap_all	client/lib/coffeescript/classes/nodes/base.php	/^  function unwrap_all()$/;"	f
+url	server/lib/WebSocket/Socket.php	/^		$url = $protocol.$host.':'.$port;$/;"	v
+useChars	client/lib/class.websocket_client.php	/^		$useChars = array();$/;"	v
+utility	client/lib/coffeescript/classes/nodes.php	/^function utility($name)$/;"	f
+v	client/lib/coffeescript/classes/helpers.php	/^    $this->v = $v;$/;"	v
+val	client/lib/coffeescript/classes/helpers.php	/^    $val = $obj[$key];$/;"	v
+val	client/lib/coffeescript/classes/helpers.php	/^  $val = NULL;$/;"	v
+val	client/lib/coffeescript/classes/nodes/assign.php	/^        $val = "{$olen} <= {$vvar}.length ? ".utility('slice').".call({$vvar}, {$i}";$/;"	v
+val	client/lib/coffeescript/classes/nodes/assign.php	/^        $val = yy('Literal', $val);$/;"	v
+val	client/lib/coffeescript/classes/nodes/assign.php	/^        $val = yy('Value', yy('Literal', $vvar), array($acc ? yy('Access', $idx) : yy('Index', $idx)));$/;"	v
+val	client/lib/coffeescript/classes/nodes/assign.php	/^    $val = $name.' '.($this->context ? $this->context : '=').' '.$val;$/;"	v
+val	client/lib/coffeescript/classes/nodes/assign.php	/^    $val = $this->value->compile($options, LEVEL_LIST);$/;"	v
+val	client/lib/coffeescript/classes/nodes/code.php	/^          $val = yy('Assign', yy('Value', $param->name), $param->value, '=');$/;"	v
+val	client/lib/coffeescript/classes/nodes/code.php	/^          $val = yy('Op', '?', $ref, $param->value);$/;"	v
+val	client/lib/coffeescript/classes/nodes/code.php	/^        $val = $ref = $param->as_reference($options);$/;"	v
+val	client/lib/coffeescript/classes/nodes/for.php	/^      $val = $expr->variable->unwrap_all();$/;"	v
+val	client/lib/coffeescript/classes/rewriter.php	/^      $val = array(t($oppos), $mtag === t('INDENT') ? $match[1] : $oppos);$/;"	v
+val	client/lib/coffeescript/classes/scope.php	/^      $val = preg_replace('\/\\d\/', 'a', $val);$/;"	v
+val	client/lib/coffeescript/classes/scope.php	/^      $val = strval(base_convert($index + intval($name, 36), 10, 36));$/;"	v
+value	client/lib/coffeescript/classes/lexer.php	/^        $value = preg_replace('\/\\\\\\\\\/', '\\\\\\\\\\\\\\\\', $value);$/;"	v
+value	client/lib/coffeescript/classes/lexer.php	/^      $value = $this->chunk{0};$/;"	v
+value	client/lib/coffeescript/classes/lexer.php	/^  function value($index = 0, $value = NULL)$/;"	f
+value	client/lib/coffeescript/classes/nodes/assign.php	/^      $value = yy('Value', $value);$/;"	v
+value	client/lib/coffeescript/classes/nodes/assign.php	/^    $this->value = $value;$/;"	v
+value	client/lib/coffeescript/classes/nodes/assign.php	/^    $value = $this->value;$/;"	v
+value	client/lib/coffeescript/classes/nodes/literal.php	/^    $this->value = $value;$/;"	v
+value	client/lib/coffeescript/classes/nodes/param.php	/^    $this->value = $value;$/;"	v
+value	client/lib/coffeescript/classes/rewriter.php	/^      $value = wrap('{');$/;"	v
+var_part	client/lib/coffeescript/classes/nodes/for.php	/^      $var_part = "\\n{$idt1}{$name_part};";$/;"	v
+var_part	client/lib/coffeescript/classes/nodes/for.php	/^    $var_part = '';$/;"	v
+var_part	client/lib/coffeescript/classes/nodes/range.php	/^    $var_part = "{$idx} = {$from}";$/;"	v
+var_part	client/lib/coffeescript/classes/nodes/range.php	/^    $var_part = "{$idx} = {$this->from}".($this->to !== $this->to_var ? ", {$this->to}" : '')$/;"	v
+variable	client/lib/coffeescript/classes/nodes/assign.php	/^    $this->variable = $variable;$/;"	v
+variable	client/lib/coffeescript/classes/nodes/call.php	/^    $this->variable = $this->is_super() ? NULL : $variable;$/;"	v
+variable	client/lib/coffeescript/classes/nodes/class.php	/^    $this->variable = $variable;$/;"	v
+variables	client/lib/coffeescript/classes/scope.php	/^    $this->variables = array($/;"	v
+vars	client/lib/coffeescript/classes/nodes/code.php	/^    $vars  = array();$/;"	v
+vars	client/lib/coffeescript/classes/nodes/range.php	/^      $vars = "{$i} = {$this->from}".($this->to !== $this->to_var ? ", {$this->to}" : '');$/;"	v
+vvar	client/lib/coffeescript/classes/nodes/assign.php	/^      $vvar = $ref;$/;"	v
+vvar	client/lib/coffeescript/classes/nodes/assign.php	/^    $vvar = $value->compile($options, LEVEL_LIST);$/;"	v
+wa.c	client/js/jquery.min.js	/^true;if(j=c.fragments[a[0]])if(j!==1)f=j}if(!f){f=b.createDocumentFragment();c.clean(a,b,f,d)}if(e)c.fragments[a[0]]=j?f:1;return{fragment:f,cacheable:e}}function K(a,b){var d={};c.each(va.concat.apply([],va.slice(0,b)),function(){d[this]=a});return d}function wa(a){return"scrollTo"in a&&a.document?a:a.nodeType===9?a.defaultView||a.parentWindow:false}var c=function(a,b){return new c.fn.init(a,b)},Ra=A.jQuery,Sa=A.$,s=A.document,T,Ta=\/^[^<]*(<[\\w\\W]+>)[^>]*$|^#([\\w-]+)$\/,Ua=\/^.[^:#\\[\\.,]*$\/,Va=\/\\S\/,$/;"	f
+waitingForData	server/lib/WebSocket/Connection.php	/^			$this->waitingForData = false;$/;"	v
+waitingForData	server/lib/WebSocket/Connection.php	/^			$this->waitingForData = true;$/;"	v
+waitingForData	server/lib/WebSocket/Connection.php	/^	public $waitingForData = false;$/;"	v
+walk_body	client/lib/coffeescript/classes/nodes/class.php	/^  function walk_body($name, $options)$/;"	f
+was_empty	client/lib/coffeescript/classes/nodes/code.php	/^    $was_empty = $this->body->is_empty();$/;"	v
+whitespace_token	client/lib/coffeescript/classes/lexer.php	/^  function whitespace_token()$/;"	f
+wrap	client/lib/coffeescript/classes/helpers.php	/^function wrap($v)$/;"	f
+wrap	client/lib/coffeescript/classes/nodes/block.php	/^  static function wrap($nodes)$/;"	f
+wrap	client/lib/coffeescript/classes/nodes/closure.php	/^  static function wrap($expressions, $statement = NULL, $no_return = FALSE)$/;"	f
+wrap	client/lib/coffeescript/classes/nodes/push.php	/^  static function wrap($name, $exps)$/;"	f
+writeBuffer	server/lib/WebSocket/Socket.php	/^	public function writeBuffer($resource, $string)$/;"	f
+x	client/lib/coffeescript/classes/parser.php	/^                        $x = new yyStackEntry;$/;"	v
+x	client/lib/coffeescript/classes/parser.php	/^                $x = ($value instanceof yyToken) ?$/;"	v
+x	client/lib/coffeescript/classes/parser.php	/^                $x = new yyStackEntry;$/;"	v
+x	client/lib/coffeescript/classes/parser.php	/^            $x = new yyStackEntry;$/;"	v
+yy	client/lib/coffeescript/classes/nodes.php	/^function yy($type)$/;"	f
+yyExpectedTokens	client/lib/coffeescript/classes/parser.php	/^    static public $yyExpectedTokens = array($/;"	v
+yyFallback	client/lib/coffeescript/classes/parser.php	/^    static public $yyFallback = array($/;"	v
+yyReduceMap	client/lib/coffeescript/classes/parser.php	/^    static public $yyReduceMap = array($/;"	v
+yyRuleInfo	client/lib/coffeescript/classes/parser.php	/^    static public $yyRuleInfo = array($/;"	v
+yyRuleName	client/lib/coffeescript/classes/parser.php	/^    static public $yyRuleName = array($/;"	v
+yyStackEntry	client/lib/coffeescript/classes/parser.php	/^class yyStackEntry$/;"	c
+yyToken	client/lib/coffeescript/classes/parser.php	/^class yyToken implements ArrayAccess$/;"	c
+yyTokenName	client/lib/coffeescript/classes/parser.php	/^    static public $yyTokenName = array( $/;"	v
+yyTraceFILE	client/lib/coffeescript/classes/parser.php	/^    static public $yyTraceFILE;$/;"	v
+yyTracePrompt	client/lib/coffeescript/classes/parser.php	/^    static public $yyTracePrompt;$/;"	v
+yy_Access	client/lib/coffeescript/classes/nodes/access.php	/^class yy_Access extends yy_Base$/;"	c
+yy_Arr	client/lib/coffeescript/classes/nodes/arr.php	/^class yy_Arr extends yy_Base$/;"	c
+yy_Assign	client/lib/coffeescript/classes/nodes/assign.php	/^class yy_Assign extends yy_Base$/;"	c
+yy_Base	client/lib/coffeescript/classes/nodes/base.php	/^class yy_Base$/;"	c
+yy_Block	client/lib/coffeescript/classes/nodes/block.php	/^class yy_Block extends yy_Base$/;"	c
+yy_Call	client/lib/coffeescript/classes/nodes/call.php	/^class yy_Call extends yy_Base$/;"	c
+yy_Class	client/lib/coffeescript/classes/nodes/class.php	/^class yy_Class extends yy_Base$/;"	c
+yy_Closure	client/lib/coffeescript/classes/nodes/closure.php	/^class yy_Closure$/;"	c
+yy_Code	client/lib/coffeescript/classes/nodes/code.php	/^class yy_Code extends yy_Base$/;"	c
+yy_Comment	client/lib/coffeescript/classes/nodes/comment.php	/^class yy_Comment extends yy_Base$/;"	c
+yy_Existence	client/lib/coffeescript/classes/nodes/existence.php	/^class yy_Existence extends yy_Base$/;"	c
+yy_Extends	client/lib/coffeescript/classes/nodes/extends.php	/^class yy_Extends extends yy_Base$/;"	c
+yy_For	client/lib/coffeescript/classes/nodes/for.php	/^class yy_For extends yy_Base$/;"	c
+yy_If	client/lib/coffeescript/classes/nodes/if.php	/^class yy_If extends yy_Base$/;"	c
+yy_In	client/lib/coffeescript/classes/nodes/in.php	/^class yy_In extends yy_Base$/;"	c
+yy_Index	client/lib/coffeescript/classes/nodes/index.php	/^class yy_Index extends yy_Base$/;"	c
+yy_Literal	client/lib/coffeescript/classes/nodes/literal.php	/^class yy_Literal extends yy_Base$/;"	c
+yy_Obj	client/lib/coffeescript/classes/nodes/obj.php	/^class yy_Obj extends yy_Base$/;"	c
+yy_Op	client/lib/coffeescript/classes/nodes/op.php	/^class yy_Op extends yy_Base$/;"	c
+yy_Param	client/lib/coffeescript/classes/nodes/param.php	/^class yy_Param extends yy_Base$/;"	c
+yy_Parens	client/lib/coffeescript/classes/nodes/parens.php	/^class yy_Parens extends yy_Base$/;"	c
+yy_Push	client/lib/coffeescript/classes/nodes/push.php	/^class yy_Push$/;"	c
+yy_Range	client/lib/coffeescript/classes/nodes/range.php	/^class yy_Range extends yy_Base$/;"	c
+yy_Return	client/lib/coffeescript/classes/nodes/return.php	/^class yy_Return extends yy_Base$/;"	c
+yy_Slice	client/lib/coffeescript/classes/nodes/slice.php	/^class yy_Slice extends yy_Base$/;"	c
+yy_Splat	client/lib/coffeescript/classes/nodes/splat.php	/^class yy_Splat extends yy_Base$/;"	c
+yy_Switch	client/lib/coffeescript/classes/nodes/switch.php	/^class yy_Switch extends yy_Base$/;"	c
+yy_Throw	client/lib/coffeescript/classes/nodes/throw.php	/^class yy_Throw extends yy_Base$/;"	c
+yy_Try	client/lib/coffeescript/classes/nodes/try.php	/^class yy_Try extends yy_Base$/;"	c
+yy_Value	client/lib/coffeescript/classes/nodes/value.php	/^class yy_Value extends yy_Base$/;"	c
+yy_While	client/lib/coffeescript/classes/nodes/while.php	/^class yy_While extends yy_Base$/;"	c
+yy_accept	client/lib/coffeescript/classes/parser.php	/^    function yy_accept()$/;"	f
+yy_action	client/lib/coffeescript/classes/parser.php	/^static public $yy_action = array($/;"	v
+yy_default	client/lib/coffeescript/classes/parser.php	/^    static public $yy_default = array($/;"	v
+yy_destructor	client/lib/coffeescript/classes/parser.php	/^    static function yy_destructor($yymajor, $yypminor)$/;"	f
+yy_find_reduce_action	client/lib/coffeescript/classes/parser.php	/^    function yy_find_reduce_action($stateno, $iLookAhead)$/;"	f
+yy_find_shift_action	client/lib/coffeescript/classes/parser.php	/^    function yy_find_shift_action($iLookAhead)$/;"	f
+yy_get_expected_tokens	client/lib/coffeescript/classes/parser.php	/^    function yy_get_expected_tokens($token)$/;"	f
+yy_is_expected_token	client/lib/coffeescript/classes/parser.php	/^    function yy_is_expected_token($token)$/;"	f
+yy_lefthand_side	client/lib/coffeescript/classes/parser.php	/^            $yy_lefthand_side = $this->_retvalue;$/;"	v
+yy_lookahead	client/lib/coffeescript/classes/parser.php	/^    static public $yy_lookahead = array($/;"	v
+yy_parse_failed	client/lib/coffeescript/classes/parser.php	/^    function yy_parse_failed()$/;"	f
+yy_pop_parser_stack	client/lib/coffeescript/classes/parser.php	/^    function yy_pop_parser_stack()$/;"	f
+yy_r0	client/lib/coffeescript/classes/parser.php	/^    function yy_r0(){ $this->_retvalue = yy('Block');     }$/;"	f
+yy_r1	client/lib/coffeescript/classes/parser.php	/^    function yy_r1(){ $this->_retvalue = $this->yystack[$this->yyidx + 0]->minor;     }$/;"	f
+yy_r100	client/lib/coffeescript/classes/parser.php	/^    function yy_r100(){ $this->_retvalue = yy('Call', 'super', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r101	client/lib/coffeescript/classes/parser.php	/^    function yy_r101(){ $this->_retvalue = FALSE;     }$/;"	f
+yy_r102	client/lib/coffeescript/classes/parser.php	/^    function yy_r102(){ $this->_retvalue = TRUE;     }$/;"	f
+yy_r104	client/lib/coffeescript/classes/parser.php	/^    function yy_r104(){ $this->_retvalue = $this->yystack[$this->yyidx + -2]->minor;     }$/;"	f
+yy_r105	client/lib/coffeescript/classes/parser.php	/^    function yy_r105(){ $this->_retvalue = yy('Value', yy('Literal', 'this'));     }$/;"	f
+yy_r107	client/lib/coffeescript/classes/parser.php	/^    function yy_r107(){ $this->_retvalue = yy('Value', yy('Literal', 'this'), array(yy('Access', $this->yystack[$this->yyidx + 0]->minor)), 'this');     }$/;"	f
+yy_r108	client/lib/coffeescript/classes/parser.php	/^    function yy_r108(){ $this->_retvalue = yy('Arr', array());     }$/;"	f
+yy_r109	client/lib/coffeescript/classes/parser.php	/^    function yy_r109(){ $this->_retvalue = yy('Arr', $this->yystack[$this->yyidx + -2]->minor);     }$/;"	f
+yy_r11	client/lib/coffeescript/classes/parser.php	/^    function yy_r11(){ $this->_retvalue = yy('Literal', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r110	client/lib/coffeescript/classes/parser.php	/^    function yy_r110(){ $this->_retvalue = 'inclusive';     }$/;"	f
+yy_r111	client/lib/coffeescript/classes/parser.php	/^    function yy_r111(){ $this->_retvalue = 'exclusive';     }$/;"	f
+yy_r112	client/lib/coffeescript/classes/parser.php	/^    function yy_r112(){ $this->_retvalue = yy('Range', $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + -2]->minor);     }$/;"	f
+yy_r113	client/lib/coffeescript/classes/parser.php	/^    function yy_r113(){ $this->_retvalue = yy('Range', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r114	client/lib/coffeescript/classes/parser.php	/^    function yy_r114(){ $this->_retvalue = yy('Range', $this->yystack[$this->yyidx + -1]->minor, NULL, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r115	client/lib/coffeescript/classes/parser.php	/^    function yy_r115(){ $this->_retvalue = yy('Range', NULL, $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r118	client/lib/coffeescript/classes/parser.php	/^    function yy_r118(){ $this->_retvalue = array_merge($this->yystack[$this->yyidx + -3]->minor, array($this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r124	client/lib/coffeescript/classes/parser.php	/^    function yy_r124(){ $this->_retvalue = array($this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r125	client/lib/coffeescript/classes/parser.php	/^    function yy_r125(){ $this->_retvalue = yy('Try', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r126	client/lib/coffeescript/classes/parser.php	/^    function yy_r126(){ $this->_retvalue = yy('Try', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor[0], $this->yystack[$this->yyidx + 0]->minor[1]);      }$/;"	f
+yy_r127	client/lib/coffeescript/classes/parser.php	/^    function yy_r127(){ $this->_retvalue = yy('Try', $this->yystack[$this->yyidx + -2]->minor, NULL, NULL, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r128	client/lib/coffeescript/classes/parser.php	/^    function yy_r128(){ $this->_retvalue = yy('Try', $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -2]->minor[0], $this->yystack[$this->yyidx + -2]->minor[1], $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r129	client/lib/coffeescript/classes/parser.php	/^    function yy_r129(){ $this->_retvalue = array($this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r130	client/lib/coffeescript/classes/parser.php	/^    function yy_r130(){ $this->_retvalue = yy('Throw', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r131	client/lib/coffeescript/classes/parser.php	/^    function yy_r131(){ $this->_retvalue = yy('Parens', $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r132	client/lib/coffeescript/classes/parser.php	/^    function yy_r132(){ $this->_retvalue = yy('Parens', $this->yystack[$this->yyidx + -2]->minor);     }$/;"	f
+yy_r133	client/lib/coffeescript/classes/parser.php	/^    function yy_r133(){ $this->_retvalue = yy('While', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r134	client/lib/coffeescript/classes/parser.php	/^    function yy_r134(){ $this->_retvalue = yy('While', $this->yystack[$this->yyidx + -2]->minor, array('guard' => $this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r135	client/lib/coffeescript/classes/parser.php	/^    function yy_r135(){ $this->_retvalue = yy('While', $this->yystack[$this->yyidx + 0]->minor, array('invert' => TRUE));     }$/;"	f
+yy_r136	client/lib/coffeescript/classes/parser.php	/^    function yy_r136(){ $this->_retvalue = yy('While', $this->yystack[$this->yyidx + -2]->minor, array('invert' => TRUE, 'guard' => $this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r137	client/lib/coffeescript/classes/parser.php	/^    function yy_r137(){ $this->_retvalue = $this->yystack[$this->yyidx + -1]->minor->add_body($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r138	client/lib/coffeescript/classes/parser.php	/^    function yy_r138(){ $this->_retvalue = $this->yystack[$this->yyidx + 0]->minor->add_body(yy_Block::wrap(array($this->yystack[$this->yyidx + -1]->minor)));     }$/;"	f
+yy_r141	client/lib/coffeescript/classes/parser.php	/^    function yy_r141(){ $this->_retvalue = yy('While', yy('Literal', 'true')); $this->_retvalue->add_body($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r142	client/lib/coffeescript/classes/parser.php	/^    function yy_r142(){ $this->_retvalue = yy('While', yy('Literal', 'true')); $this->_retvalue->add_body(yy_Block::wrap($this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r143	client/lib/coffeescript/classes/parser.php	/^    function yy_r143(){ $this->_retvalue = yy('For', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r145	client/lib/coffeescript/classes/parser.php	/^    function yy_r145(){ $this->_retvalue = yy('For', $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r146	client/lib/coffeescript/classes/parser.php	/^    function yy_r146(){ $this->_retvalue = array('source' => yy('Value', $this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r147	client/lib/coffeescript/classes/parser.php	/^    function yy_r147(){ $this->yystack[$this->yyidx + 0]->minor['own'] = isset($this->yystack[$this->yyidx + -1]->minor['own']) ? $this->yystack[$this->yyidx + -1]->minor['own'] : NULL; $this->yystack[$this->yyidx + 0]->minor['name'] = $this->yystack[$this->yyidx + -1]->minor[0]; $this->yystack[$this->yyidx + 0]->minor['index'] = isset($this->yystack[$this->yyidx + -1]->minor[1]) ? $this->yystack[$this->yyidx + -1]->minor[1] : NULL; $this->_retvalue = $this->yystack[$this->yyidx + 0]->minor;     }$/;"	f
+yy_r149	client/lib/coffeescript/classes/parser.php	/^    function yy_r149(){ $this->yystack[$this->yyidx + 0]->minor['own'] = TRUE; $this->_retvalue = $this->yystack[$this->yyidx + 0]->minor;     }$/;"	f
+yy_r155	client/lib/coffeescript/classes/parser.php	/^    function yy_r155(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r156	client/lib/coffeescript/classes/parser.php	/^    function yy_r156(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + 0]->minor, 'object' => TRUE);     }$/;"	f
+yy_r157	client/lib/coffeescript/classes/parser.php	/^    function yy_r157(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + -2]->minor, 'guard' => $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r158	client/lib/coffeescript/classes/parser.php	/^    function yy_r158(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + -2]->minor, 'guard' => $this->yystack[$this->yyidx + 0]->minor, 'object' => TRUE);     }$/;"	f
+yy_r159	client/lib/coffeescript/classes/parser.php	/^    function yy_r159(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + -2]->minor, 'step' => $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r160	client/lib/coffeescript/classes/parser.php	/^    function yy_r160(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + -4]->minor, 'guard' => $this->yystack[$this->yyidx + -2]->minor, 'step' => $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r161	client/lib/coffeescript/classes/parser.php	/^    function yy_r161(){ $this->_retvalue = array('source' => $this->yystack[$this->yyidx + -4]->minor, 'step' => $this->yystack[$this->yyidx + -2]->minor, 'guard' => $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r162	client/lib/coffeescript/classes/parser.php	/^    function yy_r162(){ $this->_retvalue = yy('Switch', $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r163	client/lib/coffeescript/classes/parser.php	/^    function yy_r163(){ $this->_retvalue = yy('Switch', $this->yystack[$this->yyidx + -5]->minor, $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r164	client/lib/coffeescript/classes/parser.php	/^    function yy_r164(){ $this->_retvalue = yy('Switch', NULL, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r165	client/lib/coffeescript/classes/parser.php	/^    function yy_r165(){ $this->_retvalue = yy('Switch', NULL, $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r167	client/lib/coffeescript/classes/parser.php	/^    function yy_r167(){ $this->_retvalue = array_merge($this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r168	client/lib/coffeescript/classes/parser.php	/^    function yy_r168(){ $this->_retvalue = array(array($this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r169	client/lib/coffeescript/classes/parser.php	/^    function yy_r169(){ $this->_retvalue = array(array($this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + -1]->minor));     }$/;"	f
+yy_r170	client/lib/coffeescript/classes/parser.php	/^    function yy_r170(){ $this->_retvalue = yy('If', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor, array('type' => $this->yystack[$this->yyidx + -2]->minor));     }$/;"	f
+yy_r171	client/lib/coffeescript/classes/parser.php	/^    function yy_r171(){ $this->_retvalue = $this->yystack[$this->yyidx + -4]->minor->add_else(yy('If', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor, array('type' => $this->yystack[$this->yyidx + -2]->minor)));     }$/;"	f
+yy_r173	client/lib/coffeescript/classes/parser.php	/^    function yy_r173(){ $this->_retvalue = $this->yystack[$this->yyidx + -2]->minor->add_else($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r174	client/lib/coffeescript/classes/parser.php	/^    function yy_r174(){ $this->_retvalue = yy('If', $this->yystack[$this->yyidx + 0]->minor, yy_Block::wrap(array($this->yystack[$this->yyidx + -2]->minor)), array('type' => $this->yystack[$this->yyidx + -1]->minor, 'statement' => TRUE));     }$/;"	f
+yy_r176	client/lib/coffeescript/classes/parser.php	/^    function yy_r176(){ $this->_retvalue = yy('Op', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r177	client/lib/coffeescript/classes/parser.php	/^    function yy_r177(){ $this->_retvalue = yy('Op', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor); \/* prec: 'UNARY'; *\/     }$/;"	f
+yy_r181	client/lib/coffeescript/classes/parser.php	/^    function yy_r181(){ $this->_retvalue = yy('Op', $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor, NULL, TRUE);     }$/;"	f
+yy_r183	client/lib/coffeescript/classes/parser.php	/^    function yy_r183(){ $this->_retvalue = yy('Existence', $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r184	client/lib/coffeescript/classes/parser.php	/^    function yy_r184(){ $this->_retvalue = yy('Op', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r190	client/lib/coffeescript/classes/parser.php	/^    function yy_r190(){ if ($this->yystack[$this->yyidx + -1]->minor{0} === '!') { $this->_retvalue = yy('Op', substr($this->yystack[$this->yyidx + -1]->minor, 1), $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor); $this->_retvalue->invert(); } else { $this->_retvalue = yy('Op', $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor); }     }$/;"	f
+yy_r191	client/lib/coffeescript/classes/parser.php	/^    function yy_r191(){ $this->_retvalue = yy('Assign', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r192	client/lib/coffeescript/classes/parser.php	/^    function yy_r192(){ $this->_retvalue = yy('Assign', $this->yystack[$this->yyidx + -4]->minor, $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + -3]->minor);     }$/;"	f
+yy_r193	client/lib/coffeescript/classes/parser.php	/^    function yy_r193(){ $this->_retvalue = yy('Extends', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r2	client/lib/coffeescript/classes/parser.php	/^    function yy_r2(){ $this->_retvalue = $this->yystack[$this->yyidx + -1]->minor;     }$/;"	f
+yy_r3	client/lib/coffeescript/classes/parser.php	/^    function yy_r3(){ $this->_retvalue = yy_Block::wrap(array($this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r31	client/lib/coffeescript/classes/parser.php	/^    function yy_r31(){ $val = yy('Literal', $this->yystack[$this->yyidx + 0]->minor);$/;"	f
+yy_r32	client/lib/coffeescript/classes/parser.php	/^    function yy_r32(){ $this->_retvalue = yy('Assign', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r33	client/lib/coffeescript/classes/parser.php	/^    function yy_r33(){ $this->_retvalue = yy('Assign', $this->yystack[$this->yyidx + -4]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r34	client/lib/coffeescript/classes/parser.php	/^    function yy_r34(){ $this->_retvalue = yy('Value', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r35	client/lib/coffeescript/classes/parser.php	/^    function yy_r35(){ $this->_retvalue = yy('Assign', yy('Value', $this->yystack[$this->yyidx + -2]->minor), $this->yystack[$this->yyidx + 0]->minor, 'object');     }$/;"	f
+yy_r36	client/lib/coffeescript/classes/parser.php	/^    function yy_r36(){ $this->_retvalue = yy('Assign', yy('Value', $this->yystack[$this->yyidx + -4]->minor), $this->yystack[$this->yyidx + -1]->minor, 'object');     }$/;"	f
+yy_r4	client/lib/coffeescript/classes/parser.php	/^    function yy_r4(){ $this->_retvalue = $this->yystack[$this->yyidx + -2]->minor->push($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r41	client/lib/coffeescript/classes/parser.php	/^    function yy_r41(){ $this->_retvalue = yy('Return', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r42	client/lib/coffeescript/classes/parser.php	/^    function yy_r42(){ $this->_retvalue = yy('Return');     }$/;"	f
+yy_r43	client/lib/coffeescript/classes/parser.php	/^    function yy_r43(){ $this->_retvalue = yy('Comment', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r44	client/lib/coffeescript/classes/parser.php	/^    function yy_r44(){ $this->_retvalue = yy('Code', $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r45	client/lib/coffeescript/classes/parser.php	/^    function yy_r45(){ $this->_retvalue = yy('Code', array(), $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r46	client/lib/coffeescript/classes/parser.php	/^    function yy_r46(){ $this->_retvalue = 'func';     }$/;"	f
+yy_r47	client/lib/coffeescript/classes/parser.php	/^    function yy_r47(){ $this->_retvalue = 'boundfunc';     }$/;"	f
+yy_r48	client/lib/coffeescript/classes/parser.php	/^    function yy_r48(){ $this->_retvalue = '';     }$/;"	f
+yy_r50	client/lib/coffeescript/classes/parser.php	/^    function yy_r50(){ $this->_retvalue = array();     }$/;"	f
+yy_r51	client/lib/coffeescript/classes/parser.php	/^    function yy_r51(){ $this->_retvalue = array($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r52	client/lib/coffeescript/classes/parser.php	/^    function yy_r52(){ $this->_retvalue = array_merge($this->yystack[$this->yyidx + -2]->minor, array($this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r53	client/lib/coffeescript/classes/parser.php	/^    function yy_r53(){ $this->_retvalue = yy('Param', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r54	client/lib/coffeescript/classes/parser.php	/^    function yy_r54(){ $this->_retvalue = yy('Param', $this->yystack[$this->yyidx + -1]->minor, NULL, TRUE);     }$/;"	f
+yy_r55	client/lib/coffeescript/classes/parser.php	/^    function yy_r55(){ $this->_retvalue = yy('Param', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r60	client/lib/coffeescript/classes/parser.php	/^    function yy_r60(){ $this->_retvalue = yy('Splat', $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r62	client/lib/coffeescript/classes/parser.php	/^    function yy_r62(){ $this->_retvalue = $this->yystack[$this->yyidx + -1]->minor->push($this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r63	client/lib/coffeescript/classes/parser.php	/^    function yy_r63(){ $this->_retvalue = yy('Value', $this->yystack[$this->yyidx + -1]->minor, array($this->yystack[$this->yyidx + 0]->minor));     }$/;"	f
+yy_r73	client/lib/coffeescript/classes/parser.php	/^    function yy_r73(){ $this->_retvalue = yy('Access', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r74	client/lib/coffeescript/classes/parser.php	/^    function yy_r74(){ $this->_retvalue = yy('Access', $this->yystack[$this->yyidx + 0]->minor, 'soak');     }$/;"	f
+yy_r75	client/lib/coffeescript/classes/parser.php	/^    function yy_r75(){ $this->_retvalue = yy('Access', $this->yystack[$this->yyidx + 0]->minor, 'proto');     }$/;"	f
+yy_r76	client/lib/coffeescript/classes/parser.php	/^    function yy_r76(){ $this->_retvalue = yy('Access', yy('Literal', 'prototype'));     }$/;"	f
+yy_r79	client/lib/coffeescript/classes/parser.php	/^    function yy_r79(){ $this->_retvalue = extend($this->yystack[$this->yyidx + 0]->minor, array('soak' => TRUE));     }$/;"	f
+yy_r80	client/lib/coffeescript/classes/parser.php	/^    function yy_r80(){ $this->_retvalue = extend($this->yystack[$this->yyidx + 0]->minor, array('proto' => TRUE));     }$/;"	f
+yy_r81	client/lib/coffeescript/classes/parser.php	/^    function yy_r81(){ $this->_retvalue = yy('Index', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r82	client/lib/coffeescript/classes/parser.php	/^    function yy_r82(){ $this->_retvalue = yy('Slice', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r83	client/lib/coffeescript/classes/parser.php	/^    function yy_r83(){ $this->_retvalue = yy('Obj', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx - 3]->generated);     }$/;"	f
+yy_r86	client/lib/coffeescript/classes/parser.php	/^    function yy_r86(){ $this->yystack[$this->yyidx + -2]->minor[] = $this->yystack[$this->yyidx + 0]->minor; $this->_retvalue = $this->yystack[$this->yyidx + -2]->minor;     }$/;"	f
+yy_r87	client/lib/coffeescript/classes/parser.php	/^    function yy_r87(){ $this->yystack[$this->yyidx + -3]->minor[] = $this->yystack[$this->yyidx + 0]->minor; $this->_retvalue = $this->yystack[$this->yyidx + -3]->minor;     }$/;"	f
+yy_r88	client/lib/coffeescript/classes/parser.php	/^    function yy_r88(){ $this->_retvalue = array_merge($this->yystack[$this->yyidx + -5]->minor, $this->yystack[$this->yyidx + -2]->minor);     }$/;"	f
+yy_r89	client/lib/coffeescript/classes/parser.php	/^    function yy_r89(){ $this->_retvalue = yy('Class');     }$/;"	f
+yy_r90	client/lib/coffeescript/classes/parser.php	/^    function yy_r90(){ $this->_retvalue = yy('Class', NULL, NULL, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r91	client/lib/coffeescript/classes/parser.php	/^    function yy_r91(){ $this->_retvalue = yy('Class', NULL, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r92	client/lib/coffeescript/classes/parser.php	/^    function yy_r92(){ $this->_retvalue = yy('Class', NULL, $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r93	client/lib/coffeescript/classes/parser.php	/^    function yy_r93(){ $this->_retvalue = yy('Class', $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r94	client/lib/coffeescript/classes/parser.php	/^    function yy_r94(){ $this->_retvalue = yy('Class', $this->yystack[$this->yyidx + -1]->minor, NULL, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r95	client/lib/coffeescript/classes/parser.php	/^    function yy_r95(){ $this->_retvalue = yy('Class', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r96	client/lib/coffeescript/classes/parser.php	/^    function yy_r96(){ $this->_retvalue = yy('Class', $this->yystack[$this->yyidx + -3]->minor, $this->yystack[$this->yyidx + -1]->minor, $this->yystack[$this->yyidx + 0]->minor);     }$/;"	f
+yy_r97	client/lib/coffeescript/classes/parser.php	/^    function yy_r97(){ $this->_retvalue = yy('Call', $this->yystack[$this->yyidx + -2]->minor, $this->yystack[$this->yyidx + 0]->minor, $this->yystack[$this->yyidx + -1]->minor);     }$/;"	f
+yy_r99	client/lib/coffeescript/classes/parser.php	/^    function yy_r99(){ $this->_retvalue = yy('Call', 'super', array(yy('Splat', yy('Literal', 'arguments'))));     }$/;"	f
+yy_reduce	client/lib/coffeescript/classes/parser.php	/^    function yy_reduce($yyruleno)$/;"	f
+yy_reduce_ofst	client/lib/coffeescript/classes/parser.php	/^    static public $yy_reduce_ofst = array($/;"	v
+yy_shift	client/lib/coffeescript/classes/parser.php	/^    function yy_shift($yyNewState, $yyMajor, $yypMinor, $generated = FALSE)$/;"	f
+yy_shift_ofst	client/lib/coffeescript/classes/parser.php	/^    static public $yy_shift_ofst = array($/;"	v
+yy_syntax_error	client/lib/coffeescript/classes/parser.php	/^    function yy_syntax_error($yymajor, $TOKEN)$/;"	f
+yyact	client/lib/coffeescript/classes/parser.php	/^                        $yyact = $nextstate;$/;"	v
+yyact	client/lib/coffeescript/classes/parser.php	/^                $yyact = self::YY_ERROR_ACTION;$/;"	v
+yyact	client/lib/coffeescript/classes/parser.php	/^            $yyact = $this->yy_find_shift_action($token);$/;"	v
+yyact	client/lib/coffeescript/classes/parser.php	/^            $yyact = $this->yy_find_shift_action($yymajor);$/;"	v
+yyact	client/lib/coffeescript/classes/parser.php	/^        $yyact = $this->yy_find_reduce_action($this->yystack[$this->yyidx]->stateno, $yygoto);$/;"	v
+yyendofinput	client/lib/coffeescript/classes/parser.php	/^        $yyendofinput = ($yymajor==0);$/;"	v
+yyerrcnt	client/lib/coffeescript/classes/parser.php	/^                    $this->yyerrcnt = 3;$/;"	v
+yyerrcnt	client/lib/coffeescript/classes/parser.php	/^            $this->yyerrcnt = -1;$/;"	v
+yyerrcnt	client/lib/coffeescript/classes/parser.php	/^    public $yyerrcnt;                 \/* Shifts left before out of the error *\/$/;"	v
+yyerrorhit	client/lib/coffeescript/classes/parser.php	/^                    $yyerrorhit = 1;$/;"	v
+yyerrorhit	client/lib/coffeescript/classes/parser.php	/^        $yyerrorhit = 0;   \/* True if yymajor has invoked an error *\/$/;"	v
+yygoto	client/lib/coffeescript/classes/parser.php	/^        $yygoto = self::$yyRuleInfo[$yyruleno]['lhs'];$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^                            $this->yyidx = $yyidx;$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^                        $this->yyidx = $yyidx;$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^            $this->yyidx = 0;$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^        $this->yyidx = $yyidx;$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^        $yyidx = $this->yyidx;$/;"	v
+yyidx	client/lib/coffeescript/classes/parser.php	/^    public $yyidx = -1;                    \/* Index of top element in stack *\/$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^                            $yymajor = self::YYNOCODE;$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^                        $yymajor = self::YYNOCODE;$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^                    $yymajor = 0;$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^                    $yymajor = self::YYNOCODE;$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^                $yymajor = self::YYNOCODE;$/;"	v
+yymajor	client/lib/coffeescript/classes/parser.php	/^        $yymajor = $yytos->major;$/;"	v
+yymsp	client/lib/coffeescript/classes/parser.php	/^        $yymsp = $this->yystack[$this->yyidx];$/;"	v
+yymx	client/lib/coffeescript/classes/parser.php	/^                    $yymx = $this->yystack[$this->yyidx]->major;$/;"	v
+yyruleno	client/lib/coffeescript/classes/parser.php	/^                    $yyruleno = $yyact - self::YYNSTATE;$/;"	v
+yysize	client/lib/coffeescript/classes/parser.php	/^        $yysize = self::$yyRuleInfo[$yyruleno]['rhs'];$/;"	v
+yystack	client/lib/coffeescript/classes/parser.php	/^                            $this->yystack = $stack;$/;"	v
+yystack	client/lib/coffeescript/classes/parser.php	/^                        $this->yystack = $stack;$/;"	v
+yystack	client/lib/coffeescript/classes/parser.php	/^            $this->yystack = array();$/;"	v
+yystack	client/lib/coffeescript/classes/parser.php	/^        $this->yystack = $stack;$/;"	v
+yystack	client/lib/coffeescript/classes/parser.php	/^    public $yystack = array();  \/* The parser's stack *\/$/;"	v
+yytos	client/lib/coffeescript/classes/parser.php	/^        $yytos = array_pop($this->yystack);$/;"	v
+yytos	client/lib/coffeescript/classes/parser.php	/^        $yytos = new yyStackEntry;$/;"	v
+zTracePrompt	client/lib/coffeescript/classes/parser.php	/^            $zTracePrompt = 0;$/;"	v

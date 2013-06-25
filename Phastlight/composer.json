@@ -1,0 +1,5 @@
+{
+	"require": {
+		"phastlight/phastlight": "0.1.*@dev"
+	}
+}

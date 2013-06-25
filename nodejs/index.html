@@ -1,0 +1,17 @@
+<html>
+<head><title>NodeJS real time user count</title></head>
+<body>
+	<div>There are:
+		<span id="count">0</span>
+		connected users
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	  var dom_count = document.getElementById('count');
+	  var socket = io.connect('http://localhost:8088');
+	  socket.on('message', function (data) {
+	    dom_count.innerHTML = data.count;
+	  });
+	</script>
+</body>
+</html>

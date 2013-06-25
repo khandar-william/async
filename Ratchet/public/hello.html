@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title></title>
+	 <script src="jquery-2.0.0.min.js"></script>
+</head>
+<body>
+	<textarea name="" id="output" cols="30" rows="10"></textarea>
+	<input type="text" id="message">
+	<button id="send">Send</button>
+	<script type="text/javascript">
+		var $output = $('#output'),
+			$message = $('#message'),
+			$send = $('#send');
+
+		var conn = new WebSocket('ws://localhost:8080');
+		conn.onopen = function(e) {
+		    $output.append("Connection established!\n");
+		};
+
+		conn.onmessage = function(e) {
+		    $output.append(e.data+"\n");
+		};
+
+		$send.on('click', function(e) {
+			var msg = $message.val();
+			conn.send(msg);
+			$message.val('');
+			$message.focus();
+		});
+		$message.on('keypress', function(e) {
+			if (e.keyCode == 13) {
+				$send.trigger(new $.Event('click'));
+			}
+		});
+	</script>
+</body>
+</html>

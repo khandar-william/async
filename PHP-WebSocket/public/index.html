@@ -1,0 +1,21 @@
+<html>
+<head><title>PHP-WebSocket real time user count</title></head>
+<body>
+	<div>There are:
+		<span id="count">0</span>
+		connected users
+	</div>
+	<script>
+	  var dom_count = document.getElementById('count');
+
+	  var conn = new WebSocket('ws://localhost:8088/count');
+		conn.onopen = function(e) {
+		    
+		};
+
+		conn.onmessage = function(e) {
+			dom_count.innerHTML = e.data;
+		};
+	</script>
+</body>
+</html>
