@@ -12,6 +12,9 @@
 		},
 		{
 			"path": "Phastlight"
+		},
+		{
+			"path": "PHP-WebSocket"
 		}
 	]
 }
